@@ -1,0 +1,558 @@
+{
+  "replay": {
+    "triggered_users": {
+      "holdout": 883,
+      "agent": 863
+    },
+    "primary": {
+      "counts": {
+        "agent": {
+          "n": 714,
+          "succeeded": 123,
+          "failed": 591,
+          "inconclusive": 0
+        },
+        "holdout": {
+          "n": 710,
+          "succeeded": 96,
+          "failed": 614,
+          "inconclusive": 0
+        }
+      },
+      "result": {
+        "diff": 0.03705763995739142,
+        "ci": [
+          -0.0004639204515867121,
+          0.07453392027124355
+        ],
+        "p_value": 0.05260053453942169
+      },
+      "mde": 0.05353531190921612
+    },
+    "per_goal": {
+      "G01": {
+        "counts": {
+          "agent": {
+            "n": 57,
+            "succeeded": 24,
+            "failed": 33,
+            "inconclusive": 0
+          },
+          "holdout": {
+            "n": 49,
+            "succeeded": 15,
+            "failed": 34,
+            "inconclusive": 0
+          }
+        },
+        "result": {
+          "diff": 0.1149301825993555,
+          "ci": [
+            -0.06828446120259468,
+            0.2852019420996177
+          ],
+          "p_value": 0.22119533254421306
+        }
+      },
+      "G02": {
+        "counts": {
+          "agent": {
+            "n": 167,
+            "succeeded": 27,
+            "failed": 140,
+            "inconclusive": 0
+          },
+          "holdout": {
+            "n": 155,
+            "succeeded": 19,
+            "failed": 136,
+            "inconclusive": 0
+          }
+        },
+        "result": {
+          "diff": 0.03909600154529651,
+          "ci": [
+            -0.03855115740382831,
+            0.11547116481415441
+          ],
+          "p_value": 0.31647376093897817
+        }
+      },
+      "G03": {
+        "counts": {
+          "agent": {
+            "n": 1,
+            "succeeded": 0,
+            "failed": 1,
+            "inconclusive": 0
+          },
+          "holdout": {
+            "n": 0,
+            "succeeded": 0,
+            "failed": 0,
+            "inconclusive": 0
+          }
+        },
+        "result": {
+          "diff": null,
+          "ci": [
+            null,
+            null
+          ],
+          "p_value": null
+        }
+      },
+      "G04": {
+        "counts": {
+          "agent": {
+            "n": 1,
+            "succeeded": 0,
+            "failed": 1,
+            "inconclusive": 0
+          },
+          "holdout": {
+            "n": 1,
+            "succeeded": 0,
+            "failed": 1,
+            "inconclusive": 0
+          }
+        },
+        "result": {
+          "diff": 0.0,
+          "ci": [
+            -0.7934506882081973,
+            0.7934506882081973
+          ],
+          "p_value": 1.0
+        }
+      },
+      "G05": {
+        "counts": {
+          "agent": {
+            "n": 51,
+            "succeeded": 3,
+            "failed": 48,
+            "inconclusive": 0
+          },
+          "holdout": {
+            "n": 50,
+            "succeeded": 2,
+            "failed": 48,
+            "inconclusive": 0
+          }
+        },
+        "result": {
+          "diff": 0.018823529411764704,
+          "ci": [
+            -0.08335570520536606,
+            0.12333894146796154
+          ],
+          "p_value": 0.662818718939247
+        }
+      },
+      "G06": {
+        "counts": {
+          "agent": {
+            "n": 14,
+            "succeeded": 1,
+            "failed": 13,
+            "inconclusive": 0
+          },
+          "holdout": {
+            "n": 14,
+            "succeeded": 1,
+            "failed": 13,
+            "inconclusive": 0
+          }
+        },
+        "result": {
+          "diff": 0.0,
+          "ci": [
+            -0.2502421268454042,
+            0.2502421268454042
+          ],
+          "p_value": 1.0
+        }
+      },
+      "G07": {
+        "counts": {
+          "agent": {
+            "n": 289,
+            "succeeded": 14,
+            "failed": 275,
+            "inconclusive": 0
+          },
+          "holdout": {
+            "n": 312,
+            "succeeded": 12,
+            "failed": 300,
+            "inconclusive": 0
+          }
+        },
+        "result": {
+          "diff": 0.009981368112856,
+          "ci": [
+            -0.0236985698770142,
+            0.04520960255235946
+          ],
+          "p_value": 0.5478782743304442
+        }
+      },
+      "G08": {
+        "counts": {
+          "agent": {
+            "n": 78,
+            "succeeded": 26,
+            "failed": 52,
+            "inconclusive": 0
+          },
+          "holdout": {
+            "n": 77,
+            "succeeded": 23,
+            "failed": 54,
+            "inconclusive": 0
+          }
+        },
+        "result": {
+          "diff": 0.034632034632034625,
+          "ci": [
+            -0.11029880979553941,
+            0.17737407781907724
+          ],
+          "p_value": 0.6429021336167178
+        }
+      },
+      "G09": {
+        "counts": {
+          "agent": {
+            "n": 17,
+            "succeeded": 7,
+            "failed": 10,
+            "inconclusive": 0
+          },
+          "holdout": {
+            "n": 10,
+            "succeeded": 4,
+            "failed": 6,
+            "inconclusive": 0
+          }
+        },
+        "result": {
+          "diff": 0.0117647058823529,
+          "ci": [
+            -0.3358513262625558,
+            0.3370443842857571
+          ],
+          "p_value": 0.9520917911567652
+        }
+      },
+      "G12": {
+        "counts": {
+          "agent": {
+            "n": 39,
+            "succeeded": 21,
+            "failed": 18,
+            "inconclusive": 0
+          },
+          "holdout": {
+            "n": 42,
+            "succeeded": 20,
+            "failed": 22,
+            "inconclusive": 0
+          }
+        },
+        "result": {
+          "diff": 0.06227106227106227,
+          "ci": [
+            -0.14944785931748014,
+            0.2662591097612844
+          ],
+          "p_value": 0.5754127822930103
+        }
+      }
+    },
+    "secondary": {
+      "any_play": {
+        "agent": [
+          668,
+          863
+        ],
+        "holdout": [
+          669,
+          883
+        ],
+        "result": {
+          "diff": 0.016399638333974176,
+          "ci": [
+            -0.023356821682282328,
+            0.05603802290636686
+          ],
+          "p_value": 0.41855129698638205
+        }
+      },
+      "any_completion": {
+        "agent": [
+          492,
+          863
+        ],
+        "holdout": [
+          502,
+          883
+        ],
+        "result": {
+          "diff": 0.0015878660785876297,
+          "ci": [
+            -0.044782143190454954,
+            0.047933534088139815
+          ],
+          "p_value": 0.9465884791395122
+        }
+      },
+      "paid_purchase": {
+        "agent": [
+          36,
+          863
+        ],
+        "holdout": [
+          36,
+          883
+        ],
+        "result": {
+          "diff": 0.0009448459310603674,
+          "ci": [
+            -0.018039578898513094,
+            0.02005035247094029
+          ],
+          "p_value": 0.9209226505582594
+        }
+      },
+      "play_on_3plus_days": {
+        "agent": [
+          359,
+          863
+        ],
+        "holdout": [
+          338,
+          883
+        ],
+        "result": {
+          "diff": 0.03320477304669506,
+          "ci": [
+            -0.012717494651619352,
+            0.07895127248279735
+          ],
+          "p_value": 0.15664092714439512
+        }
+      }
+    },
+    "plays_per_user": {
+      "agent": {
+        "mean": 3.0695249130938587,
+        "sd": 3.2301200844720035,
+        "n": 863
+      },
+      "holdout": {
+        "mean": 2.9207248018120047,
+        "sd": 3.1252121444775063,
+        "n": 883
+      },
+      "diff": {
+        "diff": 0.148800111281854,
+        "ci": [
+          -0.1494179680078701,
+          0.4470181905715781
+        ]
+      }
+    },
+    "exposure": {
+      "agent_users_with_published_action": 710,
+      "agent_users_shown_personalised_page": 624,
+      "agent_users": 863
+    },
+    "naive_exposed_vs_rest": {
+      "exposed": [
+        113,
+        624
+      ],
+      "rest": [
+        106,
+        800
+      ],
+      "result": {
+        "diff": 0.04858974358974358,
+        "ci": [
+          0.01070580413508581,
+          0.08739289428929205
+        ],
+        "p_value": 0.011673551021703326
+      }
+    },
+    "simulator": {
+      "counts": {
+        "actions_total": 1187,
+        "home_page_accepted": 933,
+        "home_page_published_but_not_shown": 15,
+        "home_page_shown_personalised": 834,
+        "in_app_message_queued": 19,
+        "in_app_message_requested": 19,
+        "organic_purchases_scripted": 36,
+        "push_clicked": 4,
+        "push_delivered": 196,
+        "push_requested": 222,
+        "push_undeliverable_token": 26,
+        "whatsapp_clicked": 1,
+        "whatsapp_delivered": 13,
+        "whatsapp_requested": 13
+      },
+      "policy_problem_count": 0,
+      "seed": "oua-practice"
+    }
+  },
+  "pilot": {
+    "itt": {
+      "treatment": [
+        1912,
+        349
+      ],
+      "holdout": [
+        1979,
+        387
+      ],
+      "result": {
+        "diff": -0.013021928999262133,
+        "ci": [
+          -0.037599016534658705,
+          0.01161329808803158
+        ],
+        "p_value": 0.2997854506278967
+      }
+    },
+    "naive": {
+      "served": [
+        217,
+        87
+      ],
+      "others": [
+        3674,
+        649
+      ],
+      "result": {
+        "diff": 0.22427495239934875,
+        "ci": [
+          0.16007648348037767,
+          0.291732589422126
+        ],
+        "p_value": 2.4579183713659625e-16
+      }
+    },
+    "compliance": 0.11349372384937238,
+    "cace": -0.11473699652806083,
+    "per_goal": {
+      "G02": {
+        "treatment": [
+          177,
+          34
+        ],
+        "holdout": [
+          183,
+          36
+        ],
+        "diff": {
+          "diff": -0.0046309159951838375,
+          "ci": [
+            -0.08628867738915966,
+            0.07752576982777658
+          ],
+          "p_value": 0.9116245884625565
+        }
+      },
+      "G04": {
+        "treatment": [
+          63,
+          15
+        ],
+        "holdout": [
+          66,
+          15
+        ],
+        "diff": {
+          "diff": 0.010822510822510817,
+          "ci": [
+            -0.13362153398433652,
+            0.15612412673107987
+          ],
+          "p_value": 0.8843626822960652
+        }
+      },
+      "G05": {
+        "treatment": [
+          1045,
+          13
+        ],
+        "holdout": [
+          1073,
+          6
+        ],
+        "diff": {
+          "diff": 0.006848392692312837,
+          "ci": [
+            -0.0014905399089567024,
+            0.01608557281915083
+          ],
+          "p_value": 0.09468355363118791
+        }
+      },
+      "G06": {
+        "treatment": [
+          157,
+          1
+        ],
+        "holdout": [
+          174,
+          5
+        ],
+        "diff": {
+          "diff": -0.02236620543231569,
+          "ci": [
+            -0.05949779953624361,
+            0.010796456241214343
+          ],
+          "p_value": 0.1277468194430992
+        }
+      },
+      "G09": {
+        "treatment": [
+          470,
+          286
+        ],
+        "holdout": [
+          483,
+          325
+        ],
+        "diff": {
+          "diff": -0.06436720849301791,
+          "ci": [
+            -0.12467452113667518,
+            -0.0034589137205366383
+          ],
+          "p_value": 0.03834994524488582
+        }
+      }
+    },
+    "served_goal_mix": {
+      "G09": 105,
+      "G05": 84,
+      "G02": 15,
+      "G06": 12,
+      "G04": 1
+    },
+    "all_goal_mix": {
+      "G05": 2118,
+      "G06": 331,
+      "G09": 953,
+      "G02": 360,
+      "G04": 129
+    },
+    "expected_served_rate_without_agent": 0.343985276447258
+  }
+}

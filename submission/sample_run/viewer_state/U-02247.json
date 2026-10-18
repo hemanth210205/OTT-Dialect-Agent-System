@@ -1,0 +1,44 @@
+{
+ "user_id": "U-02247",
+ "arm": "holdout",
+ "profile": {
+  "user_id": "U-02247",
+  "signup_at": "2024-10-16T23:01:59.212Z",
+  "subscription_status": "lapsed",
+  "plan_started_at": "",
+  "plan_ends_at": "",
+  "preferred_dialect": "d5",
+  "preferred_language": "hin",
+  "notifications_opt_in": "true",
+  "whatsapp_opt_in": "true",
+  "platform": "android",
+  "updated_at": "2026-09-28T21:46:19.166Z",
+  "snapshot_at": "2026-09-30T00:00:00.000Z"
+ },
+ "profile_source": "profiles_snapshot",
+ "facts": {},
+ "active_goal": null,
+ "goal_history": [],
+ "pending_actions": [],
+ "published_actions": [],
+ "cancelled_actions": [],
+ "live_page": null,
+ "message_ledger": {},
+ "in_app_ledger": {},
+ "processed_trigger_ids": [],
+ "decisions": [],
+ "learnings": [],
+ "revisions": [],
+ "event_summary": {
+  "events_known": 25,
+  "by_type": {
+   "app_open": 7,
+   "episode_completed": 2,
+   "home_viewed": 6,
+   "login_success": 1,
+   "play_progress": 6,
+   "play_started": 2,
+   "title_viewed": 1
+  }
+ }
+}

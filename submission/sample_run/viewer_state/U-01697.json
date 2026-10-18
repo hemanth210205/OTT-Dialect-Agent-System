@@ -1,0 +1,219 @@
+{
+ "user_id": "U-01697",
+ "arm": "holdout",
+ "profile": {
+  "user_id": "U-01697",
+  "signup_at": "2026-09-15T12:29:19.824Z",
+  "subscription_status": "active",
+  "plan_started_at": "2026-09-25T10:52:29.412Z",
+  "plan_ends_at": "2026-10-25T10:52:29.412Z",
+  "preferred_dialect": "d2",
+  "preferred_language": "hin",
+  "notifications_opt_in": "true",
+  "whatsapp_opt_in": "true",
+  "platform": "android",
+  "updated_at": "2026-09-29T12:16:38.971Z",
+  "snapshot_at": "2026-09-30T00:00:00.000Z"
+ },
+ "profile_source": "profiles_snapshot",
+ "facts": {
+  "signup_at": {
+   "value": "2026-09-15T12:29:19.824Z",
+   "source": "profile_snapshot",
+   "as_of": "2026-09-30T00:00:00.000Z",
+   "freshness_s": 136344,
+   "conflicts": [
+    "event:signup_completed@2026-09-17T23:31:26.808Z"
+   ]
+  },
+  "subscription_status": {
+   "value": "active",
+   "source": "profile_snapshot",
+   "as_of": "2026-09-30T00:00:00.000Z",
+   "freshness_s": 136344,
+   "conflicts": []
+  },
+  "has_ever_paid": {
+   "value": true,
+   "source": "profile+events",
+   "as_of": "2026-10-01T13:52:24.984Z",
+   "freshness_s": 0,
+   "conflicts": []
+  },
+  "last_lapse_at": {
+   "value": null,
+   "source": "none",
+   "as_of": "2026-10-01T13:52:24.984Z",
+   "freshness_s": 0,
+   "conflicts": []
+  },
+  "notifications_opt_in": {
+   "value": true,
+   "source": "profile_snapshot",
+   "as_of": "2026-09-30T00:00:00.000Z",
+   "freshness_s": 136344,
+   "conflicts": []
+  },
+  "whatsapp_opt_in": {
+   "value": true,
+   "source": "profile_snapshot",
+   "as_of": "2026-09-30T00:00:00.000Z",
+   "freshness_s": 136344,
+   "conflicts": []
+  },
+  "dialect": {
+   "value": "d2",
+   "source": "app_setting",
+   "as_of": "2026-10-01T13:52:24.984Z",
+   "freshness_s": 0,
+   "conflicts": [],
+   "page_displayable": true
+  },
+  "language": {
+   "value": "hin",
+   "source": "app_setting",
+   "as_of": "2026-10-01T13:52:24.984Z",
+   "freshness_s": 0,
+   "conflicts": []
+  },
+  "observed_since": {
+   "value": "2026-09-15T12:29:22.080Z",
+   "source": "events",
+   "as_of": "2026-10-01T13:52:24.984Z",
+   "freshness_s": 0,
+   "conflicts": []
+  },
+  "watch_summary": {
+   "plays": 2,
+   "completions": 1,
+   "play_days_last_14": 1,
+   "top_genre": "Action",
+   "last_app_open_at": "2026-10-01T13:43:24.570Z"
+  }
+ },
+ "active_goal": {
+  "id": "resume_series_3d",
+  "goal_id": "G07",
+  "start": "2026-10-01T03:05:57.659Z",
+  "deadline": "2026-10-04T03:05:57.659Z",
+  "success_signal": "play_started",
+  "success_condition": "same content_slug as the unfinished series",
+  "rule_version": "v1",
+  "target": {
+   "content_slug": "molo-d2",
+   "title_id": "T0521",
+   "furthest_episode": 1,
+   "next_episode": 2
+  },
+  "status": "open",
+  "evidence": [
+   "series molo-d2: furthest episode 1 of 7, 1 completed, idle 183h"
+  ],
+  "assumptions": [
+   "AMBIGUOUS rule interpreted as: a show/micro_drama the viewer invested in (reached episode 2+ or completed an episode; sampling one episode and leaving is a bounce, not an unfinished series) whose furthest started episode is before its last, with no play_started of that content_slug in the 72h before the trigger (estimated true event time), in the dialect the app currently shows."
+  ],
+  "revisions": [],
+  "shadow": true,
+  "decision_id": "D-0213"
+ },
+ "goal_history": [
+  {
+   "id": "resume_series_3d",
+   "goal_id": "G07",
+   "start": "2026-10-01T03:05:57.659Z",
+   "deadline": "2026-10-04T03:05:57.659Z",
+   "success_signal": "play_started",
+   "success_condition": "same content_slug as the unfinished series",
+   "rule_version": "v1",
+   "target": {
+    "content_slug": "molo-d2",
+    "title_id": "T0521",
+    "furthest_episode": 1,
+    "next_episode": 2
+   },
+   "status": "open",
+   "evidence": [
+    "series molo-d2: furthest episode 1 of 7, 1 completed, idle 183h"
+   ],
+   "assumptions": [
+    "AMBIGUOUS rule interpreted as: a show/micro_drama the viewer invested in (reached episode 2+ or completed an episode; sampling one episode and leaving is a bounce, not an unfinished series) whose furthest started episode is before its last, with no play_started of that content_slug in the 72h before the trigger (estimated true event time), in the dialect the app currently shows."
+   ],
+   "revisions": [],
+   "shadow": true,
+   "decision_id": "D-0213"
+  }
+ ],
+ "pending_actions": [],
+ "published_actions": [],
+ "cancelled_actions": [],
+ "live_page": null,
+ "message_ledger": {},
+ "in_app_ledger": {},
+ "processed_trigger_ids": [
+  "bf2b9b3b-5a71-4fdc-961a-3c93f9ebf0d1",
+  "985024c8-7cd2-44f6-96aa-bdffc8d89207",
+  "dc8f8154-55d0-486a-b8a7-37f0ace688a8",
+  "e085cb52-d726-42b0-95cb-585ef89d8904"
+ ],
+ "decisions": [
+  {
+   "decision_id": "D-0213",
+   "action": "NO_ACTION",
+   "status": "ABSTAINED",
+   "reason": "holdout_user",
+   "at": "2026-10-01T03:05:57.659Z"
+  },
+  {
+   "decision_id": "D-0270",
+   "action": "NO_ACTION",
+   "status": "ABSTAINED",
+   "reason": "holdout_user",
+   "at": "2026-10-01T03:43:49.221Z"
+  },
+  {
+   "decision_id": "D-1755",
+   "action": "NO_ACTION",
+   "status": "ABSTAINED",
+   "reason": "holdout_user",
+   "at": "2026-10-01T13:43:24.584Z"
+  },
+  {
+   "decision_id": "D-1784",
+   "action": "NO_ACTION",
+   "status": "ABSTAINED",
+   "reason": "stale_offline_buffered_trigger",
+   "at": "2026-10-01T13:52:24.996Z"
+  }
+ ],
+ "learnings": [],
+ "revisions": [],
+ "last_trigger": {
+  "event_id": "e085cb52-d726-42b0-95cb-585ef89d8904",
+  "user_id": "U-01697",
+  "event": "app_open",
+  "occurred_at": "2026-09-27T08:55:44.278Z",
+  "sent_at": "2026-10-01T13:52:23.000Z",
+  "received_at": "2026-10-01T13:52:24.984Z",
+  "session_id": "67126293-f3ea-4790-8ee2-ef1b0e8b7c46",
+  "app_dialect": "d2",
+  "app_language": "hin",
+  "platform": "android",
+  "app_version": "6.1.5",
+  "properties": {},
+  "deliver_at": "2026-10-01T13:52:24.984Z"
+ },
+ "event_summary": {
+  "events_known": 22,
+  "by_type": {
+   "app_open": 8,
+   "episode_completed": 1,
+   "home_viewed": 4,
+   "login_success": 1,
+   "paywall_viewed": 1,
+   "play_progress": 3,
+   "play_started": 2,
+   "purchase_completed": 1,
+   "signup_completed": 1
+  }
+ }
+}

@@ -1,0 +1,196 @@
+{
+ "user_id": "U-01602",
+ "arm": "holdout",
+ "profile": {
+  "user_id": "U-01602",
+  "signup_at": "2026-06-17T15:01:41.602Z",
+  "subscription_status": "active",
+  "plan_started_at": "2026-09-25T09:02:27.761Z",
+  "plan_ends_at": "2026-10-25T09:02:27.761Z",
+  "preferred_dialect": "d2",
+  "preferred_language": "hin",
+  "notifications_opt_in": "true",
+  "whatsapp_opt_in": "false",
+  "platform": "android",
+  "updated_at": "2026-09-28T18:24:07.274Z",
+  "snapshot_at": "2026-09-30T00:00:00.000Z"
+ },
+ "profile_source": "profiles_snapshot",
+ "facts": {
+  "signup_at": {
+   "value": "2026-06-17T15:01:41.602Z",
+   "source": "profile_snapshot",
+   "as_of": "2026-09-30T00:00:00.000Z",
+   "freshness_s": 148031,
+   "conflicts": []
+  },
+  "subscription_status": {
+   "value": "active",
+   "source": "profile_snapshot",
+   "as_of": "2026-09-30T00:00:00.000Z",
+   "freshness_s": 148031,
+   "conflicts": []
+  },
+  "has_ever_paid": {
+   "value": true,
+   "source": "profile+events",
+   "as_of": "2026-10-01T17:07:11.894Z",
+   "freshness_s": 0,
+   "conflicts": []
+  },
+  "last_lapse_at": {
+   "value": "2026-09-02T20:42:39.657Z",
+   "source": "event:subscription_lapsed",
+   "as_of": "2026-10-01T17:07:11.894Z",
+   "freshness_s": 0,
+   "conflicts": []
+  },
+  "notifications_opt_in": {
+   "value": true,
+   "source": "profile_snapshot",
+   "as_of": "2026-09-30T00:00:00.000Z",
+   "freshness_s": 148031,
+   "conflicts": []
+  },
+  "whatsapp_opt_in": {
+   "value": false,
+   "source": "profile_snapshot",
+   "as_of": "2026-09-30T00:00:00.000Z",
+   "freshness_s": 148031,
+   "conflicts": []
+  },
+  "dialect": {
+   "value": "d2",
+   "source": "app_setting",
+   "as_of": "2026-10-01T17:07:11.894Z",
+   "freshness_s": 0,
+   "conflicts": [],
+   "page_displayable": true
+  },
+  "language": {
+   "value": "hin",
+   "source": "app_setting",
+   "as_of": "2026-10-01T17:07:11.894Z",
+   "freshness_s": 0,
+   "conflicts": []
+  },
+  "observed_since": {
+   "value": "2026-09-02T20:42:39.657Z",
+   "source": "events",
+   "as_of": "2026-10-01T17:07:11.894Z",
+   "freshness_s": 0,
+   "conflicts": []
+  },
+  "watch_summary": {
+   "plays": 6,
+   "completions": 4,
+   "play_days_last_14": 1,
+   "top_genre": "Family",
+   "last_app_open_at": "2026-09-28T15:23:58.554Z"
+  }
+ },
+ "active_goal": {
+  "id": "resume_series_3d",
+  "goal_id": "G07",
+  "start": "2026-10-01T17:07:12.063Z",
+  "deadline": "2026-10-04T17:07:12.063Z",
+  "success_signal": "play_started",
+  "success_condition": "same content_slug as the unfinished series",
+  "rule_version": "v1.1",
+  "target": {
+   "content_slug": "dhapipa-gini-d2",
+   "title_id": "T1677",
+   "furthest_episode": 2,
+   "next_episode": 3
+  },
+  "status": "open",
+  "evidence": [
+   "series dhapipa-gini-d2: furthest episode 2 of 55, 2 completed, idle 217h"
+  ],
+  "assumptions": [
+   "AMBIGUOUS rule interpreted as: a show/micro_drama the viewer invested in (reached episode 2+ or completed an episode; sampling one episode and leaving is a bounce, not an unfinished series) whose furthest started episode is before its last, with no play_started of that content_slug in the 72h before the trigger (estimated true event time), in the dialect the app currently shows."
+  ],
+  "revisions": [],
+  "shadow": true,
+  "decision_id": "D-2614"
+ },
+ "goal_history": [
+  {
+   "id": "resume_series_3d",
+   "goal_id": "G07",
+   "start": "2026-10-01T17:07:12.063Z",
+   "deadline": "2026-10-04T17:07:12.063Z",
+   "success_signal": "play_started",
+   "success_condition": "same content_slug as the unfinished series",
+   "rule_version": "v1.1",
+   "target": {
+    "content_slug": "dhapipa-gini-d2",
+    "title_id": "T1677",
+    "furthest_episode": 2,
+    "next_episode": 3
+   },
+   "status": "open",
+   "evidence": [
+    "series dhapipa-gini-d2: furthest episode 2 of 55, 2 completed, idle 217h"
+   ],
+   "assumptions": [
+    "AMBIGUOUS rule interpreted as: a show/micro_drama the viewer invested in (reached episode 2+ or completed an episode; sampling one episode and leaving is a bounce, not an unfinished series) whose furthest started episode is before its last, with no play_started of that content_slug in the 72h before the trigger (estimated true event time), in the dialect the app currently shows."
+   ],
+   "revisions": [],
+   "shadow": true,
+   "decision_id": "D-2614"
+  }
+ ],
+ "pending_actions": [],
+ "published_actions": [],
+ "cancelled_actions": [],
+ "live_page": null,
+ "message_ledger": {},
+ "in_app_ledger": {},
+ "processed_trigger_ids": [
+  "a9c133ac-db06-4e0e-8902-4cae5d6198c6"
+ ],
+ "decisions": [
+  {
+   "decision_id": "D-2614",
+   "action": "NO_ACTION",
+   "status": "ABSTAINED",
+   "reason": "holdout_user",
+   "at": "2026-10-01T17:07:12.063Z"
+  }
+ ],
+ "learnings": [],
+ "revisions": [],
+ "last_trigger": {
+  "event_id": "a9c133ac-db06-4e0e-8902-4cae5d6198c6",
+  "user_id": "U-01602",
+  "event": "app_open",
+  "occurred_at": "2026-10-01T17:07:11.000Z",
+  "sent_at": "2026-10-01T17:07:11.000Z",
+  "received_at": "2026-10-01T17:07:11.894Z",
+  "session_id": "dc2b543d-3274-41cb-adf3-8c27e381c995",
+  "app_dialect": "d2",
+  "app_language": "hin",
+  "platform": "android",
+  "app_version": "6.1.4",
+  "properties": {
+   "deeplink": "ott://c/cmp028/d2/title/T0899"
+  },
+  "deliver_at": "2026-10-01T17:07:11.894Z"
+ },
+ "event_summary": {
+  "events_known": 72,
+  "by_type": {
+   "app_open": 18,
+   "episode_completed": 4,
+   "home_viewed": 15,
+   "paywall_viewed": 1,
+   "play_progress": 15,
+   "play_started": 6,
+   "purchase_completed": 1,
+   "search": 2,
+   "subscription_lapsed": 1,
+   "title_viewed": 9
+  }
+ }
+}

@@ -1,0 +1,86 @@
+{
+  "definition": "decided_in_ms = queueing in a 4-worker virtual pool + measured compute + simulated dependency latency (user store, model). published_at = deliver_at + decided_in_ms.",
+  "all_decisions": {
+    "n": 2781,
+    "p50_ms": 142.0,
+    "p90_ms": 364.0,
+    "p95_ms": 393.0,
+    "p99_ms": 417.0,
+    "max_ms": 1509,
+    "over_60s": 0
+  },
+  "published": {
+    "n": 934,
+    "p50_ms": 230.0,
+    "p90_ms": 377.0,
+    "p95_ms": 401.3499999999999,
+    "p99_ms": 417.0,
+    "max_ms": 1174,
+    "over_60s": 0
+  },
+  "abstained": {
+    "n": 1847,
+    "p50_ms": 21.0,
+    "p90_ms": 353.0,
+    "p95_ms": 387.0,
+    "p99_ms": 416.53999999999996,
+    "max_ms": 1509,
+    "over_60s": 0
+  },
+  "home_pages_within_3s": {
+    "n": 933,
+    "within_3000ms": 933,
+    "note": "the simulator shows the home page 3-40 s after app open; a page published later is only seen on a later visit inside its TTL"
+  },
+  "windows": {
+    "dependency_unavailable:model_provider": {
+      "n": 22,
+      "p50_ms": 19.5,
+      "p90_ms": 76.80000000000001,
+      "p95_ms": 81.75,
+      "p99_ms": 84.37,
+      "max_ms": 85,
+      "over_60s": 0
+    },
+    "dependency_degraded:user_data_store": {
+      "n": 16,
+      "p50_ms": 801.5,
+      "p90_ms": 1156.5,
+      "p95_ms": 1171.0,
+      "p99_ms": 1173.4,
+      "max_ms": 1174,
+      "over_60s": 0
+    },
+    "traffic_peak_2026-10-01T04:45": {
+      "n": 228,
+      "p50_ms": 13.0,
+      "p90_ms": 23.0,
+      "p95_ms": 24.0,
+      "p99_ms": 263.78999999999974,
+      "max_ms": 357,
+      "over_60s": 0
+    }
+  },
+  "peak_minute": {
+    "minute": "2026-10-01T04:45",
+    "triggers": 79
+  },
+  "model_status": {
+    "ok": 1405,
+    "not_called": 639,
+    "not_needed_goal_continuing": 717,
+    "unsupported_claim": 1,
+    "unavailable": 8,
+    "circuit_open": 9,
+    "timeout": 1,
+    "malformed_output": 1
+  },
+  "fallback_used": 20,
+  "max_model_calls": 1,
+  "max_tool_calls": 9,
+  "budget": {
+    "model_calls": 8,
+    "tool_calls": 20,
+    "latency_ms": 60000
+  }
+}

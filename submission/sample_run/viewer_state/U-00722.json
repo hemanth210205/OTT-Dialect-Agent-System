@@ -1,0 +1,226 @@
+{
+ "user_id": "U-00722",
+ "arm": "agent",
+ "profile": {
+  "user_id": "U-00722",
+  "signup_at": "2025-11-03T23:23:07.637Z",
+  "subscription_status": "lapsed",
+  "plan_started_at": "",
+  "plan_ends_at": "",
+  "preferred_dialect": "d3",
+  "preferred_language": "hin",
+  "notifications_opt_in": "true",
+  "whatsapp_opt_in": "true",
+  "platform": "ios",
+  "updated_at": "2026-09-29T05:21:02.276Z",
+  "snapshot_at": "2026-09-30T00:00:00.000Z"
+ },
+ "profile_source": "profiles_snapshot",
+ "facts": {
+  "signup_at": {
+   "value": "2025-11-03T23:23:07.637Z",
+   "source": "profile_snapshot",
+   "as_of": "2026-09-30T00:00:00.000Z",
+   "freshness_s": 128328,
+   "conflicts": []
+  },
+  "subscription_status": {
+   "value": "lapsed",
+   "source": "profile_snapshot",
+   "as_of": "2026-09-30T00:00:00.000Z",
+   "freshness_s": 128328,
+   "conflicts": []
+  },
+  "has_ever_paid": {
+   "value": true,
+   "source": "profile+events",
+   "as_of": "2026-10-01T11:38:48.821Z",
+   "freshness_s": 0,
+   "conflicts": []
+  },
+  "last_lapse_at": {
+   "value": "2026-09-25T04:55:38.283Z",
+   "source": "event:subscription_lapsed",
+   "as_of": "2026-10-01T11:38:48.821Z",
+   "freshness_s": 0,
+   "conflicts": []
+  },
+  "notifications_opt_in": {
+   "value": true,
+   "source": "profile_snapshot",
+   "as_of": "2026-09-30T00:00:00.000Z",
+   "freshness_s": 128328,
+   "conflicts": []
+  },
+  "whatsapp_opt_in": {
+   "value": true,
+   "source": "profile_snapshot",
+   "as_of": "2026-09-30T00:00:00.000Z",
+   "freshness_s": 128328,
+   "conflicts": []
+  },
+  "dialect": {
+   "value": "d3",
+   "source": "app_setting",
+   "as_of": "2026-10-01T11:38:48.821Z",
+   "freshness_s": 0,
+   "conflicts": [],
+   "page_displayable": true
+  },
+  "language": {
+   "value": "hin",
+   "source": "app_setting",
+   "as_of": "2026-10-01T11:38:48.821Z",
+   "freshness_s": 0,
+   "conflicts": []
+  },
+  "observed_since": {
+   "value": "2026-09-01T05:53:38.272Z",
+   "source": "events",
+   "as_of": "2026-10-01T11:38:48.821Z",
+   "freshness_s": 0,
+   "conflicts": []
+  },
+  "watch_summary": {
+   "plays": 13,
+   "completions": 7,
+   "play_days_last_14": 4,
+   "top_genre": "Romance",
+   "last_app_open_at": "2026-09-29T15:55:21.357Z"
+  }
+ },
+ "active_goal": {
+  "id": "resume_series_3d",
+  "goal_id": "G07",
+  "start": "2026-10-01T11:38:49.023Z",
+  "deadline": "2026-10-04T11:38:49.023Z",
+  "success_signal": "play_started",
+  "success_condition": "same content_slug as the unfinished series",
+  "rule_version": "v1.1",
+  "target": {
+   "content_slug": "yadha-kopa-d3",
+   "title_id": "T0905",
+   "furthest_episode": 1,
+   "next_episode": 2
+  },
+  "status": "open",
+  "evidence": [
+   "series yadha-kopa-d3: furthest episode 1 of 7, 1 completed, idle 187h"
+  ],
+  "assumptions": [
+   "AMBIGUOUS rule interpreted as: a show/micro_drama the viewer invested in (reached episode 2+ or completed an episode; sampling one episode and leaving is a bounce, not an unfinished series) whose furthest started episode is before its last, with no play_started of that content_slug in the 72h before the trigger (estimated true event time), in the dialect the app currently shows."
+  ],
+  "revisions": [],
+  "shadow": false,
+  "decision_id": "D-1458"
+ },
+ "goal_history": [
+  {
+   "id": "resume_series_3d",
+   "goal_id": "G07",
+   "start": "2026-10-01T11:38:49.023Z",
+   "deadline": "2026-10-04T11:38:49.023Z",
+   "success_signal": "play_started",
+   "success_condition": "same content_slug as the unfinished series",
+   "rule_version": "v1.1",
+   "target": {
+    "content_slug": "yadha-kopa-d3",
+    "title_id": "T0905",
+    "furthest_episode": 1,
+    "next_episode": 2
+   },
+   "status": "open",
+   "evidence": [
+    "series yadha-kopa-d3: furthest episode 1 of 7, 1 completed, idle 187h"
+   ],
+   "assumptions": [
+    "AMBIGUOUS rule interpreted as: a show/micro_drama the viewer invested in (reached episode 2+ or completed an episode; sampling one episode and leaving is a bounce, not an unfinished series) whose furthest started episode is before its last, with no play_started of that content_slug in the 72h before the trigger (estimated true event time), in the dialect the app currently shows."
+   ],
+   "revisions": [],
+   "shadow": false,
+   "decision_id": "D-1458"
+  }
+ ],
+ "pending_actions": [],
+ "published_actions": [
+  {
+   "action_id": "A-0609",
+   "type": "home_page",
+   "published_at": "2026-10-01T11:38:49.023Z"
+  },
+  {
+   "action_id": "A-0610",
+   "type": "push",
+   "send_at": "2026-10-02T13:30:00.000Z"
+  }
+ ],
+ "cancelled_actions": [],
+ "live_page": {
+  "action_id": "A-0609",
+  "published_at": "2026-10-01T11:38:49.023Z",
+  "dialect": "d3",
+  "title_ids": [
+   "T0905",
+   "T0909",
+   "T0901",
+   "T0908",
+   "T0914",
+   "T0913",
+   "T0904"
+  ],
+  "ttl_minutes": 120
+ },
+ "message_ledger": {
+  "2026-10-02": 1
+ },
+ "in_app_ledger": {},
+ "processed_trigger_ids": [
+  "fae798e6-4f62-4028-bec2-a662d493ed44"
+ ],
+ "decisions": [
+  {
+   "decision_id": "D-1458",
+   "action": "HOME_PAGE",
+   "status": "PUBLISHED",
+   "reason": null,
+   "at": "2026-10-01T11:38:49.023Z"
+  }
+ ],
+ "learnings": [
+  {
+   "at": "2026-10-15T18:30:00.000Z",
+   "learning": "goal G07 failed"
+  }
+ ],
+ "revisions": [],
+ "last_trigger": {
+  "event_id": "fae798e6-4f62-4028-bec2-a662d493ed44",
+  "user_id": "U-00722",
+  "event": "app_open",
+  "occurred_at": "2026-10-01T11:38:48.000Z",
+  "sent_at": "2026-10-01T11:38:48.000Z",
+  "received_at": "2026-10-01T11:38:48.821Z",
+  "session_id": "ba84523d-fef0-4f92-b2e0-45c77fe583ea",
+  "app_dialect": "d3",
+  "app_language": "hin",
+  "platform": "ios",
+  "app_version": "6.1.5",
+  "properties": {},
+  "deliver_at": "2026-10-01T11:38:48.821Z"
+ },
+ "event_summary": {
+  "events_known": 119,
+  "by_type": {
+   "app_open": 27,
+   "episode_completed": 7,
+   "home_viewed": 22,
+   "login_success": 1,
+   "message_delivered": 6,
+   "play_progress": 27,
+   "play_started": 13,
+   "search": 3,
+   "subscription_lapsed": 1,
+   "title_viewed": 12
+  }
+ }
+}

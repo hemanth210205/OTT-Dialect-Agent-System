@@ -1,0 +1,252 @@
+{
+ "user_id": "U-03185",
+ "arm": "agent",
+ "profile": {
+  "user_id": "U-03185",
+  "signup_at": "2026-09-10T09:42:25.099Z",
+  "subscription_status": "never",
+  "plan_started_at": "",
+  "plan_ends_at": "",
+  "preferred_dialect": "",
+  "preferred_language": "en",
+  "notifications_opt_in": "true",
+  "whatsapp_opt_in": "false",
+  "platform": "android",
+  "updated_at": "2026-09-28T19:18:52.869Z",
+  "snapshot_at": "2026-09-30T00:00:00.000Z"
+ },
+ "profile_source": "profiles_snapshot",
+ "facts": {
+  "signup_at": {
+   "value": "2026-09-10T09:42:25.099Z",
+   "source": "profile_snapshot",
+   "as_of": "2026-09-30T00:00:00.000Z",
+   "freshness_s": 124641,
+   "conflicts": []
+  },
+  "subscription_status": {
+   "value": "never",
+   "source": "profile_snapshot",
+   "as_of": "2026-09-30T00:00:00.000Z",
+   "freshness_s": 124641,
+   "conflicts": []
+  },
+  "has_ever_paid": {
+   "value": false,
+   "source": "profile+events",
+   "as_of": "2026-10-01T10:37:21.101Z",
+   "freshness_s": 0,
+   "conflicts": []
+  },
+  "last_lapse_at": {
+   "value": null,
+   "source": "none",
+   "as_of": "2026-10-01T10:37:21.101Z",
+   "freshness_s": 0,
+   "conflicts": []
+  },
+  "notifications_opt_in": {
+   "value": true,
+   "source": "profile_snapshot",
+   "as_of": "2026-09-30T00:00:00.000Z",
+   "freshness_s": 124641,
+   "conflicts": []
+  },
+  "whatsapp_opt_in": {
+   "value": false,
+   "source": "profile_snapshot",
+   "as_of": "2026-09-30T00:00:00.000Z",
+   "freshness_s": 124641,
+   "conflicts": []
+  },
+  "dialect": {
+   "value": "d2",
+   "source": "app_setting",
+   "as_of": "2026-10-01T10:37:21.101Z",
+   "freshness_s": 0,
+   "conflicts": [],
+   "page_displayable": true
+  },
+  "language": {
+   "value": "en",
+   "source": "app_setting",
+   "as_of": "2026-10-01T10:37:21.101Z",
+   "freshness_s": 0,
+   "conflicts": []
+  },
+  "observed_since": {
+   "value": "2026-09-10T09:42:26.623Z",
+   "source": "events",
+   "as_of": "2026-10-01T10:37:21.101Z",
+   "freshness_s": 0,
+   "conflicts": []
+  },
+  "watch_summary": {
+   "plays": 2,
+   "completions": 2,
+   "play_days_last_14": 2,
+   "top_genre": "Devotional",
+   "last_app_open_at": "2026-09-30T09:19:36.896Z"
+  }
+ },
+ "active_goal": {
+  "id": "resume_series_3d",
+  "goal_id": "G07",
+  "start": "2026-10-01T10:37:21.108Z",
+  "deadline": "2026-10-04T10:37:21.108Z",
+  "success_signal": "play_started",
+  "success_condition": "same content_slug as the unfinished series",
+  "rule_version": "v1.1",
+  "target": {
+   "content_slug": "guka-kosusa-d2",
+   "title_id": "T0522",
+   "furthest_episode": 1,
+   "next_episode": 2
+  },
+  "status": "open",
+  "evidence": [
+   "series guka-kosusa-d2: furthest episode 1 of 41, 1 completed, idle 195h"
+  ],
+  "assumptions": [
+   "AMBIGUOUS rule interpreted as: a show/micro_drama the viewer invested in (reached episode 2+ or completed an episode; sampling one episode and leaving is a bounce, not an unfinished series) whose furthest started episode is before its last, with no play_started of that content_slug in the 72h before the trigger (estimated true event time), in the dialect the app currently shows."
+  ],
+  "revisions": [],
+  "shadow": false,
+  "decision_id": "D-1332"
+ },
+ "goal_history": [
+  {
+   "id": "resume_series_3d",
+   "goal_id": "G07",
+   "start": "2026-10-01T10:37:21.108Z",
+   "deadline": "2026-10-04T10:37:21.108Z",
+   "success_signal": "play_started",
+   "success_condition": "same content_slug as the unfinished series",
+   "rule_version": "v1.1",
+   "target": {
+    "content_slug": "guka-kosusa-d2",
+    "title_id": "T0522",
+    "furthest_episode": 1,
+    "next_episode": 2
+   },
+   "status": "open",
+   "evidence": [
+    "series guka-kosusa-d2: furthest episode 1 of 41, 1 completed, idle 195h"
+   ],
+   "assumptions": [
+    "AMBIGUOUS rule interpreted as: a show/micro_drama the viewer invested in (reached episode 2+ or completed an episode; sampling one episode and leaving is a bounce, not an unfinished series) whose furthest started episode is before its last, with no play_started of that content_slug in the 72h before the trigger (estimated true event time), in the dialect the app currently shows."
+   ],
+   "revisions": [],
+   "shadow": false,
+   "decision_id": "D-1332"
+  }
+ ],
+ "pending_actions": [],
+ "published_actions": [
+  {
+   "action_id": "A-0543",
+   "type": "home_page",
+   "published_at": "2026-10-01T10:37:21.108Z"
+  }
+ ],
+ "cancelled_actions": [],
+ "live_page": {
+  "action_id": "A-0543",
+  "published_at": "2026-10-01T10:37:21.108Z",
+  "dialect": "d2",
+  "title_ids": [
+   "T0521",
+   "T1681",
+   "T1684",
+   "T1688",
+   "T0567",
+   "T1685",
+   "T0566",
+   "T0585",
+   "T1687",
+   "T1677",
+   "T0526",
+   "T1679",
+   "T0525",
+   "T0528",
+   "T0531",
+   "T0536",
+   "T0533",
+   "T0545",
+   "T0552",
+   "T0676",
+   "T1691",
+   "T0535",
+   "T0575",
+   "T0584",
+   "T0587",
+   "T0534",
+   "T1682",
+   "T1686",
+   "T0581",
+   "T0900",
+   "T0553",
+   "T0560",
+   "T0614",
+   "T1683",
+   "T0899",
+   "T0547",
+   "T0559",
+   "T0565",
+   "T1696",
+   "T0562",
+   "T0571"
+  ],
+  "ttl_minutes": 120
+ },
+ "message_ledger": {},
+ "in_app_ledger": {},
+ "processed_trigger_ids": [
+  "948dfa93-92e6-4f1f-8885-1761991586b1"
+ ],
+ "decisions": [
+  {
+   "decision_id": "D-1332",
+   "action": "HOME_PAGE",
+   "status": "PUBLISHED",
+   "reason": null,
+   "at": "2026-10-01T10:37:21.108Z"
+  }
+ ],
+ "learnings": [
+  {
+   "at": "2026-10-15T18:30:00.000Z",
+   "learning": "goal G07 failed"
+  }
+ ],
+ "revisions": [],
+ "last_trigger": {
+  "event_id": "948dfa93-92e6-4f1f-8885-1761991586b1",
+  "user_id": "U-03185",
+  "event": "app_open",
+  "occurred_at": "2026-10-01T10:37:19.000Z",
+  "sent_at": "2026-10-01T10:37:19.000Z",
+  "received_at": "2026-10-01T10:37:21.101Z",
+  "session_id": "bac73ada-deeb-4b75-b4fc-b369fea4a77b",
+  "app_dialect": "d2",
+  "app_language": "en",
+  "platform": "android",
+  "app_version": "6.1.5",
+  "properties": {},
+  "deliver_at": "2026-10-01T10:37:21.101Z"
+ },
+ "event_summary": {
+  "events_known": 26,
+  "by_type": {
+   "app_open": 6,
+   "episode_completed": 2,
+   "home_viewed": 5,
+   "login_success": 1,
+   "play_progress": 6,
+   "play_started": 2,
+   "search": 1,
+   "signup_completed": 1,
+   "title_viewed": 2
+  }
+ }
+}

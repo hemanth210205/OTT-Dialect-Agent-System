@@ -1,0 +1,219 @@
+{
+ "user_id": "U-04531",
+ "arm": "holdout",
+ "profile": {
+  "user_id": "U-04531",
+  "signup_at": "2025-07-15T00:53:11.350Z",
+  "subscription_status": "never",
+  "plan_started_at": "",
+  "plan_ends_at": "",
+  "preferred_dialect": "d6",
+  "preferred_language": "en",
+  "notifications_opt_in": "true",
+  "whatsapp_opt_in": "true",
+  "platform": "android",
+  "updated_at": "2026-09-28T22:02:34.147Z",
+  "snapshot_at": "2026-09-30T00:00:00.000Z"
+ },
+ "profile_source": "profiles_snapshot",
+ "facts": {
+  "signup_at": {
+   "value": "2025-07-15T00:53:11.350Z",
+   "source": "profile_snapshot",
+   "as_of": "2026-09-30T00:00:00.000Z",
+   "freshness_s": 130517,
+   "conflicts": []
+  },
+  "subscription_status": {
+   "value": "never",
+   "source": "profile_snapshot",
+   "as_of": "2026-09-30T00:00:00.000Z",
+   "freshness_s": 130517,
+   "conflicts": []
+  },
+  "has_ever_paid": {
+   "value": false,
+   "source": "profile+events",
+   "as_of": "2026-10-01T12:15:17.332Z",
+   "freshness_s": 0,
+   "conflicts": []
+  },
+  "last_lapse_at": {
+   "value": null,
+   "source": "none",
+   "as_of": "2026-10-01T12:15:17.332Z",
+   "freshness_s": 0,
+   "conflicts": []
+  },
+  "notifications_opt_in": {
+   "value": true,
+   "source": "profile_snapshot",
+   "as_of": "2026-09-30T00:00:00.000Z",
+   "freshness_s": 130517,
+   "conflicts": []
+  },
+  "whatsapp_opt_in": {
+   "value": true,
+   "source": "profile_snapshot",
+   "as_of": "2026-09-30T00:00:00.000Z",
+   "freshness_s": 130517,
+   "conflicts": []
+  },
+  "dialect": {
+   "value": "d1",
+   "source": "app_setting",
+   "as_of": "2026-10-01T12:15:17.332Z",
+   "freshness_s": 0,
+   "conflicts": [
+    "profile:d6"
+   ],
+   "page_displayable": true
+  },
+  "language": {
+   "value": "en",
+   "source": "app_setting",
+   "as_of": "2026-10-01T12:15:17.332Z",
+   "freshness_s": 0,
+   "conflicts": []
+  },
+  "observed_since": {
+   "value": "2026-09-02T07:26:55.211Z",
+   "source": "events",
+   "as_of": "2026-10-01T12:15:17.332Z",
+   "freshness_s": 0,
+   "conflicts": []
+  },
+  "watch_summary": {
+   "plays": 3,
+   "completions": 2,
+   "play_days_last_14": 2,
+   "top_genre": "Drama",
+   "last_app_open_at": "2026-10-01T11:51:21.607Z"
+  }
+ },
+ "active_goal": {
+  "id": "resume_series_3d",
+  "goal_id": "G07",
+  "start": "2026-10-01T02:58:57.744Z",
+  "deadline": "2026-10-04T02:58:57.744Z",
+  "success_signal": "play_started",
+  "success_condition": "same content_slug as the unfinished series",
+  "rule_version": "v1",
+  "target": {
+   "content_slug": "bagugu-gigupi-d1",
+   "title_id": "T1504",
+   "furthest_episode": 2,
+   "next_episode": 3
+  },
+  "status": "open",
+  "evidence": [
+   "series bagugu-gigupi-d1: furthest episode 2 of 8, 1 completed, idle 246h"
+  ],
+  "assumptions": [
+   "AMBIGUOUS rule interpreted as: a show/micro_drama the viewer invested in (reached episode 2+ or completed an episode; sampling one episode and leaving is a bounce, not an unfinished series) whose furthest started episode is before its last, with no play_started of that content_slug in the 72h before the trigger (estimated true event time), in the dialect the app currently shows."
+  ],
+  "revisions": [],
+  "shadow": true,
+  "decision_id": "D-0201"
+ },
+ "goal_history": [
+  {
+   "id": "resume_series_3d",
+   "goal_id": "G07",
+   "start": "2026-10-01T02:58:57.744Z",
+   "deadline": "2026-10-04T02:58:57.744Z",
+   "success_signal": "play_started",
+   "success_condition": "same content_slug as the unfinished series",
+   "rule_version": "v1",
+   "target": {
+    "content_slug": "bagugu-gigupi-d1",
+    "title_id": "T1504",
+    "furthest_episode": 2,
+    "next_episode": 3
+   },
+   "status": "open",
+   "evidence": [
+    "series bagugu-gigupi-d1: furthest episode 2 of 8, 1 completed, idle 246h"
+   ],
+   "assumptions": [
+    "AMBIGUOUS rule interpreted as: a show/micro_drama the viewer invested in (reached episode 2+ or completed an episode; sampling one episode and leaving is a bounce, not an unfinished series) whose furthest started episode is before its last, with no play_started of that content_slug in the 72h before the trigger (estimated true event time), in the dialect the app currently shows."
+   ],
+   "revisions": [],
+   "shadow": true,
+   "decision_id": "D-0201"
+  }
+ ],
+ "pending_actions": [],
+ "published_actions": [],
+ "cancelled_actions": [],
+ "live_page": null,
+ "message_ledger": {},
+ "in_app_ledger": {},
+ "processed_trigger_ids": [
+  "b1dcce53-5103-4645-99e9-aa950a09ab56",
+  "0d0227a2-d8cc-448e-bd58-be9a5b0ad830",
+  "6af0f514-bcf4-4d1a-86c5-481c46902d79",
+  "af2e14b9-d9ac-44f3-90db-d4538c46d670"
+ ],
+ "decisions": [
+  {
+   "decision_id": "D-0201",
+   "action": "NO_ACTION",
+   "status": "ABSTAINED",
+   "reason": "holdout_user",
+   "at": "2026-10-01T02:58:57.744Z"
+  },
+  {
+   "decision_id": "D-0540",
+   "action": "NO_ACTION",
+   "status": "ABSTAINED",
+   "reason": "stale_offline_buffered_trigger",
+   "at": "2026-10-01T04:47:26.702Z"
+  },
+  {
+   "decision_id": "D-1492",
+   "action": "NO_ACTION",
+   "status": "ABSTAINED",
+   "reason": "holdout_user",
+   "at": "2026-10-01T11:51:21.630Z"
+  },
+  {
+   "decision_id": "D-1556",
+   "action": "NO_ACTION",
+   "status": "ABSTAINED",
+   "reason": "holdout_user",
+   "at": "2026-10-01T12:15:17.354Z"
+  }
+ ],
+ "learnings": [],
+ "revisions": [],
+ "last_trigger": {
+  "event_id": "af2e14b9-d9ac-44f3-90db-d4538c46d670",
+  "user_id": "U-04531",
+  "event": "app_open",
+  "occurred_at": "2026-10-01T12:15:15.000Z",
+  "sent_at": "2026-10-01T12:15:15.000Z",
+  "received_at": "2026-10-01T12:15:17.332Z",
+  "session_id": "ceebe353-f05a-4f91-912d-016bfe7145f1",
+  "app_dialect": "d1",
+  "app_language": "en",
+  "platform": "android",
+  "app_version": "6.1.4",
+  "properties": {},
+  "deliver_at": "2026-10-01T12:15:17.332Z"
+ },
+ "event_summary": {
+  "events_known": 41,
+  "by_type": {
+   "app_open": 15,
+   "episode_completed": 2,
+   "home_viewed": 8,
+   "login_success": 1,
+   "paywall_viewed": 1,
+   "play_progress": 6,
+   "play_started": 3,
+   "search": 1,
+   "title_viewed": 4
+  }
+ }
+}

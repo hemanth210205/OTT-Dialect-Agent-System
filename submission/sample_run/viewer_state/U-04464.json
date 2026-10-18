@@ -1,0 +1,174 @@
+{
+ "user_id": "U-04464",
+ "arm": "holdout",
+ "profile": null,
+ "profile_source": "synthesized_from_signup_event:3ca8e776-0caf-4b15-acc7-750754758437",
+ "facts": {
+  "signup_at": {
+   "value": "2026-10-01T07:20:19.969Z",
+   "source": "event:signup_completed",
+   "as_of": "2026-10-01T07:20:19.969Z",
+   "freshness_s": 28,
+   "conflicts": []
+  },
+  "subscription_status": {
+   "value": "never",
+   "source": "inferred:signup_without_purchase",
+   "as_of": "2026-10-01T07:20:19.969Z",
+   "freshness_s": 28,
+   "conflicts": []
+  },
+  "has_ever_paid": {
+   "value": false,
+   "source": "profile+events",
+   "as_of": "2026-10-01T07:20:48.247Z",
+   "freshness_s": 0,
+   "conflicts": []
+  },
+  "last_lapse_at": {
+   "value": null,
+   "source": "none",
+   "as_of": "2026-10-01T07:20:48.247Z",
+   "freshness_s": 0,
+   "conflicts": []
+  },
+  "notifications_opt_in": {
+   "value": false,
+   "source": "missing:fail_closed",
+   "as_of": "2026-09-30T00:00:00.000Z",
+   "freshness_s": 112848,
+   "conflicts": []
+  },
+  "whatsapp_opt_in": {
+   "value": false,
+   "source": "missing:fail_closed",
+   "as_of": "2026-09-30T00:00:00.000Z",
+   "freshness_s": 112848,
+   "conflicts": []
+  },
+  "dialect": {
+   "value": "d2",
+   "source": "app_setting",
+   "as_of": "2026-10-01T07:20:48.247Z",
+   "freshness_s": 0,
+   "conflicts": [],
+   "page_displayable": true
+  },
+  "language": {
+   "value": "hin",
+   "source": "app_setting",
+   "as_of": "2026-10-01T07:20:48.247Z",
+   "freshness_s": 0,
+   "conflicts": []
+  },
+  "observed_since": {
+   "value": "2026-10-01T07:20:19.969Z",
+   "source": "events",
+   "as_of": "2026-10-01T07:20:48.247Z",
+   "freshness_s": 0,
+   "conflicts": []
+  },
+  "watch_summary": {
+   "plays": 0,
+   "completions": 0,
+   "play_days_last_14": 0,
+   "top_genre": null,
+   "last_app_open_at": null
+  }
+ },
+ "active_goal": {
+  "id": "first_play_24h",
+  "goal_id": "G01",
+  "start": "2026-10-01T07:20:41.792Z",
+  "deadline": "2026-10-02T07:20:41.792Z",
+  "success_signal": "play_started",
+  "success_condition": "any title",
+  "rule_version": "v1",
+  "target": {},
+  "status": "open",
+  "evidence": [
+   "signup_at=2026-10-01T07:20:19.969Z (event:signup_completed)",
+   "play_started observed: 0"
+  ],
+  "assumptions": [
+   "'Never started a play' is judged on the 30 days of observable history plus the replay feed."
+  ],
+  "revisions": [],
+  "shadow": true,
+  "decision_id": "D-0916"
+ },
+ "goal_history": [
+  {
+   "id": "first_play_24h",
+   "goal_id": "G01",
+   "start": "2026-10-01T07:20:41.792Z",
+   "deadline": "2026-10-02T07:20:41.792Z",
+   "success_signal": "play_started",
+   "success_condition": "any title",
+   "rule_version": "v1",
+   "target": {},
+   "status": "open",
+   "evidence": [
+    "signup_at=2026-10-01T07:20:19.969Z (event:signup_completed)",
+    "play_started observed: 0"
+   ],
+   "assumptions": [
+    "'Never started a play' is judged on the 30 days of observable history plus the replay feed."
+   ],
+   "revisions": [],
+   "shadow": true,
+   "decision_id": "D-0916"
+  }
+ ],
+ "pending_actions": [],
+ "published_actions": [],
+ "cancelled_actions": [],
+ "live_page": null,
+ "message_ledger": {},
+ "in_app_ledger": {},
+ "processed_trigger_ids": [
+  "13e80c4e-577d-4ba9-9afe-f2cdff95f122",
+  "1f5442df-b2e4-4071-9641-b97af21bf362"
+ ],
+ "decisions": [
+  {
+   "decision_id": "D-0916",
+   "action": "NO_ACTION",
+   "status": "ABSTAINED",
+   "reason": "holdout_user",
+   "at": "2026-10-01T07:20:41.792Z"
+  },
+  {
+   "decision_id": "D-0917",
+   "action": "NO_ACTION",
+   "status": "ABSTAINED",
+   "reason": "holdout_user",
+   "at": "2026-10-01T07:20:48.273Z"
+  }
+ ],
+ "learnings": [],
+ "revisions": [],
+ "last_trigger": {
+  "event_id": "1f5442df-b2e4-4071-9641-b97af21bf362",
+  "user_id": "U-04464",
+  "event": "app_open",
+  "occurred_at": "2026-10-01T07:20:45.722Z",
+  "sent_at": "2026-10-01T07:20:45.722Z",
+  "received_at": "2026-10-01T07:20:48.247Z",
+  "session_id": "f6cd4e58-32ad-4fad-bc9e-8fd109ce1448",
+  "app_dialect": "d2",
+  "app_language": "hin",
+  "platform": "android",
+  "app_version": "6.1.4",
+  "properties": {},
+  "deliver_at": "2026-10-01T07:20:48.247Z"
+ },
+ "event_summary": {
+  "events_known": 3,
+  "by_type": {
+   "app_open": 1,
+   "login_success": 1,
+   "signup_completed": 1
+  }
+ }
+}

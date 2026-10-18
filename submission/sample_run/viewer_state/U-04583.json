@@ -1,0 +1,215 @@
+{
+ "user_id": "U-04583",
+ "arm": "holdout",
+ "profile": {
+  "user_id": "U-04583",
+  "signup_at": "2025-02-04T07:03:19.895Z",
+  "subscription_status": "lapsed",
+  "plan_started_at": "",
+  "plan_ends_at": "",
+  "preferred_dialect": "d4",
+  "preferred_language": "hin",
+  "notifications_opt_in": "true",
+  "whatsapp_opt_in": "true",
+  "platform": "android",
+  "updated_at": "2026-09-29T06:26:49.523Z",
+  "snapshot_at": "2026-09-30T00:00:00.000Z"
+ },
+ "profile_source": "profiles_snapshot",
+ "facts": {
+  "signup_at": {
+   "value": "2025-02-04T07:03:19.895Z",
+   "source": "profile_snapshot",
+   "as_of": "2026-09-30T00:00:00.000Z",
+   "freshness_s": 143543,
+   "conflicts": []
+  },
+  "subscription_status": {
+   "value": "active",
+   "source": "event:purchase_completed:86d4bf9c-196b-46e9-9344-6ad49b22d42c",
+   "as_of": "2026-10-01T15:39:47.083Z",
+   "freshness_s": 756,
+   "conflicts": [
+    "profile:lapsed"
+   ]
+  },
+  "has_ever_paid": {
+   "value": true,
+   "source": "profile+events",
+   "as_of": "2026-10-01T15:52:23.247Z",
+   "freshness_s": 0,
+   "conflicts": []
+  },
+  "last_lapse_at": {
+   "value": "2026-09-26T10:50:31.915Z",
+   "source": "event:subscription_lapsed",
+   "as_of": "2026-10-01T15:52:23.247Z",
+   "freshness_s": 0,
+   "conflicts": []
+  },
+  "notifications_opt_in": {
+   "value": true,
+   "source": "profile_snapshot",
+   "as_of": "2026-09-30T00:00:00.000Z",
+   "freshness_s": 143543,
+   "conflicts": []
+  },
+  "whatsapp_opt_in": {
+   "value": true,
+   "source": "profile_snapshot",
+   "as_of": "2026-09-30T00:00:00.000Z",
+   "freshness_s": 143543,
+   "conflicts": []
+  },
+  "dialect": {
+   "value": "d6",
+   "source": "app_setting",
+   "as_of": "2026-10-01T15:52:23.247Z",
+   "freshness_s": 0,
+   "conflicts": [
+    "profile:d4"
+   ],
+   "page_displayable": true
+  },
+  "language": {
+   "value": "hin",
+   "source": "app_setting",
+   "as_of": "2026-10-01T15:52:23.247Z",
+   "freshness_s": 0,
+   "conflicts": []
+  },
+  "observed_since": {
+   "value": "2026-09-01T10:38:44.931Z",
+   "source": "events",
+   "as_of": "2026-10-01T15:52:23.247Z",
+   "freshness_s": 0,
+   "conflicts": []
+  },
+  "watch_summary": {
+   "plays": 27,
+   "completions": 15,
+   "play_days_last_14": 6,
+   "top_genre": "Romance",
+   "last_app_open_at": "2026-10-01T15:37:55.556Z"
+  }
+ },
+ "active_goal": {
+  "id": "resume_series_3d",
+  "goal_id": "G07",
+  "start": "2026-10-01T15:37:55.825Z",
+  "deadline": "2026-10-04T15:37:55.825Z",
+  "success_signal": "play_started",
+  "success_condition": "same content_slug as the unfinished series",
+  "rule_version": "v1.1",
+  "target": {
+   "content_slug": "bhari-vagi-d6",
+   "title_id": "T1393",
+   "furthest_episode": 2,
+   "next_episode": 3
+  },
+  "status": "open",
+  "evidence": [
+   "series bhari-vagi-d6: furthest episode 2 of 26, 2 completed, idle 80h"
+  ],
+  "assumptions": [
+   "AMBIGUOUS rule interpreted as: a show/micro_drama the viewer invested in (reached episode 2+ or completed an episode; sampling one episode and leaving is a bounce, not an unfinished series) whose furthest started episode is before its last, with no play_started of that content_slug in the 72h before the trigger (estimated true event time), in the dialect the app currently shows."
+  ],
+  "revisions": [],
+  "shadow": true,
+  "decision_id": "D-2312"
+ },
+ "goal_history": [
+  {
+   "id": "resume_series_3d",
+   "goal_id": "G07",
+   "start": "2026-10-01T15:37:55.825Z",
+   "deadline": "2026-10-04T15:37:55.825Z",
+   "success_signal": "play_started",
+   "success_condition": "same content_slug as the unfinished series",
+   "rule_version": "v1.1",
+   "target": {
+    "content_slug": "bhari-vagi-d6",
+    "title_id": "T1393",
+    "furthest_episode": 2,
+    "next_episode": 3
+   },
+   "status": "open",
+   "evidence": [
+    "series bhari-vagi-d6: furthest episode 2 of 26, 2 completed, idle 80h"
+   ],
+   "assumptions": [
+    "AMBIGUOUS rule interpreted as: a show/micro_drama the viewer invested in (reached episode 2+ or completed an episode; sampling one episode and leaving is a bounce, not an unfinished series) whose furthest started episode is before its last, with no play_started of that content_slug in the 72h before the trigger (estimated true event time), in the dialect the app currently shows."
+   ],
+   "revisions": [],
+   "shadow": true,
+   "decision_id": "D-2312"
+  }
+ ],
+ "pending_actions": [],
+ "published_actions": [],
+ "cancelled_actions": [],
+ "live_page": null,
+ "message_ledger": {},
+ "in_app_ledger": {},
+ "processed_trigger_ids": [
+  "edebebf7-faed-4528-a3c4-0536e741b8b0",
+  "6055af50-d678-40b9-a1aa-d101107e1fc7"
+ ],
+ "decisions": [
+  {
+   "decision_id": "D-2312",
+   "action": "NO_ACTION",
+   "status": "ABSTAINED",
+   "reason": "holdout_user",
+   "at": "2026-10-01T15:37:55.825Z"
+  },
+  {
+   "decision_id": "D-2314",
+   "action": "NO_ACTION",
+   "status": "ABSTAINED",
+   "reason": "duplicate_event_id",
+   "at": "2026-10-01T15:38:09.163Z"
+  },
+  {
+   "decision_id": "D-2359",
+   "action": "NO_ACTION",
+   "status": "ABSTAINED",
+   "reason": "holdout_user",
+   "at": "2026-10-01T15:52:23.266Z"
+  }
+ ],
+ "learnings": [],
+ "revisions": [],
+ "last_trigger": {
+  "event_id": "6055af50-d678-40b9-a1aa-d101107e1fc7",
+  "user_id": "U-04583",
+  "event": "app_open",
+  "occurred_at": "2026-10-01T15:52:22.000Z",
+  "sent_at": "2026-10-01T15:52:22.000Z",
+  "received_at": "2026-10-01T15:52:23.247Z",
+  "session_id": "779b7d91-7413-4a12-8b02-33295616a24c",
+  "app_dialect": "d6",
+  "app_language": "hin",
+  "platform": "android",
+  "app_version": "6.1.4",
+  "properties": {},
+  "deliver_at": "2026-10-01T15:52:23.247Z"
+ },
+ "event_summary": {
+  "events_known": 182,
+  "by_type": {
+   "app_dialect_changed": 1,
+   "app_open": 33,
+   "episode_completed": 15,
+   "home_viewed": 26,
+   "login_success": 1,
+   "paywall_viewed": 2,
+   "play_progress": 58,
+   "play_started": 27,
+   "purchase_completed": 1,
+   "search": 3,
+   "subscription_lapsed": 1,
+   "title_viewed": 14
+  }
+ }
+}

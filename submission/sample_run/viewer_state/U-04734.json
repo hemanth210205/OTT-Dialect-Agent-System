@@ -1,0 +1,265 @@
+{
+ "user_id": "U-04734",
+ "arm": "agent",
+ "profile": {
+  "user_id": "U-04734",
+  "signup_at": "2025-12-30T15:38:54.917Z",
+  "subscription_status": "active",
+  "plan_started_at": "2026-09-14T23:17:17.583Z",
+  "plan_ends_at": "2026-10-14T23:17:17.583Z",
+  "preferred_dialect": "d3",
+  "preferred_language": "hin",
+  "notifications_opt_in": "true",
+  "whatsapp_opt_in": "true",
+  "platform": "android",
+  "updated_at": "2026-09-29T04:58:22.925Z",
+  "snapshot_at": "2026-09-30T00:00:00.000Z"
+ },
+ "profile_source": "profiles_snapshot",
+ "facts": {
+  "signup_at": {
+   "value": "2025-12-30T15:38:54.917Z",
+   "source": "profile_snapshot",
+   "as_of": "2026-09-30T00:00:00.000Z",
+   "freshness_s": 89950,
+   "conflicts": []
+  },
+  "subscription_status": {
+   "value": "active",
+   "source": "profile_snapshot",
+   "as_of": "2026-09-30T00:00:00.000Z",
+   "freshness_s": 89950,
+   "conflicts": []
+  },
+  "has_ever_paid": {
+   "value": true,
+   "source": "profile+events",
+   "as_of": "2026-10-01T00:59:10.907Z",
+   "freshness_s": 0,
+   "conflicts": []
+  },
+  "last_lapse_at": {
+   "value": null,
+   "source": "none",
+   "as_of": "2026-10-01T00:59:10.907Z",
+   "freshness_s": 0,
+   "conflicts": []
+  },
+  "notifications_opt_in": {
+   "value": true,
+   "source": "profile_snapshot",
+   "as_of": "2026-09-30T00:00:00.000Z",
+   "freshness_s": 89950,
+   "conflicts": []
+  },
+  "whatsapp_opt_in": {
+   "value": true,
+   "source": "profile_snapshot",
+   "as_of": "2026-09-30T00:00:00.000Z",
+   "freshness_s": 89950,
+   "conflicts": []
+  },
+  "dialect": {
+   "value": "d4",
+   "source": "app_setting",
+   "as_of": "2026-10-01T00:59:10.907Z",
+   "freshness_s": 0,
+   "conflicts": [
+    "profile:d3"
+   ],
+   "page_displayable": true
+  },
+  "language": {
+   "value": "hin",
+   "source": "app_setting",
+   "as_of": "2026-10-01T00:59:10.907Z",
+   "freshness_s": 0,
+   "conflicts": []
+  },
+  "observed_since": {
+   "value": "2026-09-05T11:39:24.624Z",
+   "source": "events",
+   "as_of": "2026-10-01T00:59:10.907Z",
+   "freshness_s": 0,
+   "conflicts": []
+  },
+  "watch_summary": {
+   "plays": 6,
+   "completions": 3,
+   "play_days_last_14": 1,
+   "top_genre": "Romance",
+   "last_app_open_at": "2026-09-29T15:17:07.144Z"
+  }
+ },
+ "active_goal": {
+  "id": "resume_series_3d",
+  "goal_id": "G07",
+  "start": "2026-10-01T00:59:11.078Z",
+  "deadline": "2026-10-04T00:59:11.078Z",
+  "success_signal": "play_started",
+  "success_condition": "same content_slug as the unfinished series",
+  "rule_version": "v1",
+  "target": {
+   "content_slug": "bagi-baya-d4",
+   "title_id": "T1811",
+   "furthest_episode": 1,
+   "next_episode": 2
+  },
+  "status": "open",
+  "evidence": [
+   "series bagi-baya-d4: furthest episode 1 of 40, 1 completed, idle 324h"
+  ],
+  "assumptions": [
+   "AMBIGUOUS rule interpreted as: a show/micro_drama the viewer invested in (reached episode 2+ or completed an episode; sampling one episode and leaving is a bounce, not an unfinished series) whose furthest started episode is before its last, with no play_started of that content_slug in the 72h before the trigger (estimated true event time), in the dialect the app currently shows."
+  ],
+  "revisions": [],
+  "shadow": false,
+  "decision_id": "D-0095"
+ },
+ "goal_history": [
+  {
+   "id": "resume_series_3d",
+   "goal_id": "G07",
+   "start": "2026-10-01T00:59:11.078Z",
+   "deadline": "2026-10-04T00:59:11.078Z",
+   "success_signal": "play_started",
+   "success_condition": "same content_slug as the unfinished series",
+   "rule_version": "v1",
+   "target": {
+    "content_slug": "bagi-baya-d4",
+    "title_id": "T1811",
+    "furthest_episode": 1,
+    "next_episode": 2
+   },
+   "status": "open",
+   "evidence": [
+    "series bagi-baya-d4: furthest episode 1 of 40, 1 completed, idle 324h"
+   ],
+   "assumptions": [
+    "AMBIGUOUS rule interpreted as: a show/micro_drama the viewer invested in (reached episode 2+ or completed an episode; sampling one episode and leaving is a bounce, not an unfinished series) whose furthest started episode is before its last, with no play_started of that content_slug in the 72h before the trigger (estimated true event time), in the dialect the app currently shows."
+   ],
+   "revisions": [],
+   "shadow": false,
+   "decision_id": "D-0095"
+  }
+ ],
+ "pending_actions": [],
+ "published_actions": [
+  {
+   "action_id": "A-0053",
+   "type": "home_page",
+   "published_at": "2026-10-01T00:59:11.078Z"
+  },
+  {
+   "action_id": "A-0054",
+   "type": "push",
+   "send_at": "2026-10-02T13:30:00.000Z"
+  }
+ ],
+ "cancelled_actions": [],
+ "live_page": {
+  "action_id": "A-0053",
+  "published_at": "2026-10-01T00:59:11.078Z",
+  "dialect": "d4",
+  "title_ids": [
+   "T0916",
+   "T0919",
+   "T0918",
+   "T0920",
+   "T0922",
+   "T0923",
+   "T0925",
+   "T0942",
+   "T0931",
+   "T0915",
+   "T0921",
+   "T0917",
+   "T0932",
+   "T0933",
+   "T0924",
+   "T0926",
+   "T0938",
+   "T0956",
+   "T0974",
+   "T0999",
+   "T0937",
+   "T0941",
+   "T0971",
+   "T0988",
+   "T1008",
+   "T0939",
+   "T0957",
+   "T0934",
+   "T0940",
+   "T0949",
+   "T0950",
+   "T0978",
+   "T1041",
+   "T0928",
+   "T0927",
+   "T0936",
+   "T0935",
+   "T0951",
+   "T0952",
+   "T0984",
+   "T0945"
+  ],
+  "ttl_minutes": 120
+ },
+ "message_ledger": {
+  "2026-10-02": 1
+ },
+ "in_app_ledger": {},
+ "processed_trigger_ids": [
+  "ceed635b-e4e0-4a36-806f-59bab0417f66"
+ ],
+ "decisions": [
+  {
+   "decision_id": "D-0095",
+   "action": "HOME_PAGE",
+   "status": "PUBLISHED",
+   "reason": null,
+   "at": "2026-10-01T00:59:11.078Z"
+  }
+ ],
+ "learnings": [
+  {
+   "at": "2026-10-15T18:30:00.000Z",
+   "learning": "goal G07 succeeded"
+  },
+  {
+   "at": "2026-10-02T13:30:00.000Z",
+   "learning": "push token invalid: prefer home page / WhatsApp for this viewer"
+  }
+ ],
+ "revisions": [],
+ "last_trigger": {
+  "event_id": "ceed635b-e4e0-4a36-806f-59bab0417f66",
+  "user_id": "U-04734",
+  "event": "app_open",
+  "occurred_at": "2026-10-01T00:59:08.000Z",
+  "sent_at": "2026-10-01T00:59:08.000Z",
+  "received_at": "2026-10-01T00:59:10.907Z",
+  "session_id": "af07a9ef-2bbc-40b8-afd7-c1fc451d0f13",
+  "app_dialect": "d4",
+  "app_language": "hin",
+  "platform": "android",
+  "app_version": "6.1.5",
+  "properties": {},
+  "deliver_at": "2026-10-01T00:59:10.907Z"
+ },
+ "event_summary": {
+  "events_known": 73,
+  "by_type": {
+   "app_dialect_changed": 1,
+   "app_open": 20,
+   "episode_completed": 3,
+   "home_viewed": 18,
+   "play_progress": 10,
+   "play_started": 6,
+   "search": 2,
+   "subscription_renewed": 1,
+   "title_viewed": 12
+  }
+ }
+}

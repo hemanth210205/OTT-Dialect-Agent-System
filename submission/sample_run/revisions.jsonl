@@ -1,0 +1,10 @@
+{"at": "2026-10-01T04:29:46.080Z", "user_id": "U-03954", "kind": "goal_closed", "detail": "G07 achieved by live play_started 9aee2472-ef0c-4deb-b9e2-9492bf7c26fb; goal closed, pending messages cancelled"}
+{"at": "2026-10-01T05:13:08.794Z", "user_id": "U-01200", "kind": "goal_closed", "detail": "G05 achieved by live purchase_completed 3eaa17f3-cf5d-4219-b6ef-cf5ef0f11b42; goal closed, pending messages cancelled"}
+{"at": "2026-10-01T06:33:58.504Z", "user_id": "U-00045", "kind": "goal_closed", "detail": "G06 achieved by live purchase_completed 173fc778-f125-43fa-a3c7-1e4fa9115893; goal closed, pending messages cancelled"}
+{"at": "2026-10-01T07:00:00.000Z", "user_id": "*", "kind": "title_withdrawn", "detail": "T0001 withdrawn: licence ended early; the title can no longer be shown or promoted"}
+{"at": "2026-10-01T07:00:00.000Z", "user_id": "U-03017", "kind": "action_cancelled", "detail": "push A-0093 cancelled: title_withdrawn:T0001"}
+{"at": "2026-10-01T07:37:32.152Z", "user_id": "U-00649", "kind": "goal_closed", "detail": "G05 achieved by live purchase_completed 9b6c3196-4d3b-45cf-8378-78dd0899a0f1; goal closed, pending messages cancelled"}
+{"at": "2026-10-01T08:30:00.000Z", "user_id": "*", "kind": "goal_rule_corrected", "detail": "G03 -> {'event': 'play_started', 'condition': 'on a later IST calendar day within the window'}; 0 open goals re-pointed; rule_version v1.1"}
+{"at": "2026-10-01T10:35:00.000Z", "user_id": "*", "kind": "dependency_unavailable", "detail": "model_provider until 2026-10-01T10:42:00.000Z: every model call fails with HTTP 503"}
+{"at": "2026-10-01T12:54:22.923Z", "user_id": "U-01275", "kind": "goal_closed", "detail": "G05 achieved by live purchase_completed a95bec4c-c68e-4c77-a682-f5b56959b85d; goal closed, pending messages cancelled"}
+{"at": "2026-10-01T13:10:00.000Z", "user_id": "*", "kind": "dependency_degraded", "detail": "user_data_store until 2026-10-01T13:17:00.000Z: p95 read latency 8 s and 20% of reads time out"}

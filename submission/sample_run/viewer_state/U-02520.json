@@ -1,0 +1,276 @@
+{
+ "user_id": "U-02520",
+ "arm": "agent",
+ "profile": {
+  "user_id": "U-02520",
+  "signup_at": "2024-11-07T12:07:20.335Z",
+  "subscription_status": "never",
+  "plan_started_at": "",
+  "plan_ends_at": "",
+  "preferred_dialect": "d4",
+  "preferred_language": "en",
+  "notifications_opt_in": "true",
+  "whatsapp_opt_in": "false",
+  "platform": "android",
+  "updated_at": "2026-09-28T21:41:02.065Z",
+  "snapshot_at": "2026-09-30T00:00:00.000Z"
+ },
+ "profile_source": "profiles_snapshot",
+ "facts": {
+  "signup_at": {
+   "value": "2024-11-07T12:07:20.335Z",
+   "source": "profile_snapshot",
+   "as_of": "2026-09-30T00:00:00.000Z",
+   "freshness_s": 140455,
+   "conflicts": []
+  },
+  "subscription_status": {
+   "value": "never",
+   "source": "profile_snapshot",
+   "as_of": "2026-09-30T00:00:00.000Z",
+   "freshness_s": 140455,
+   "conflicts": []
+  },
+  "has_ever_paid": {
+   "value": false,
+   "source": "profile+events",
+   "as_of": "2026-10-01T15:00:55.544Z",
+   "freshness_s": 0,
+   "conflicts": []
+  },
+  "last_lapse_at": {
+   "value": null,
+   "source": "none",
+   "as_of": "2026-10-01T15:00:55.544Z",
+   "freshness_s": 0,
+   "conflicts": []
+  },
+  "notifications_opt_in": {
+   "value": true,
+   "source": "profile_snapshot",
+   "as_of": "2026-09-30T00:00:00.000Z",
+   "freshness_s": 140455,
+   "conflicts": []
+  },
+  "whatsapp_opt_in": {
+   "value": false,
+   "source": "profile_snapshot",
+   "as_of": "2026-09-30T00:00:00.000Z",
+   "freshness_s": 140455,
+   "conflicts": []
+  },
+  "dialect": {
+   "value": "d4",
+   "source": "app_setting",
+   "as_of": "2026-10-01T15:00:55.544Z",
+   "freshness_s": 0,
+   "conflicts": [],
+   "page_displayable": true
+  },
+  "language": {
+   "value": "en",
+   "source": "app_setting",
+   "as_of": "2026-10-01T15:00:55.544Z",
+   "freshness_s": 0,
+   "conflicts": []
+  },
+  "observed_since": {
+   "value": "2026-09-02T14:30:19.033Z",
+   "source": "events",
+   "as_of": "2026-10-01T15:00:55.544Z",
+   "freshness_s": 0,
+   "conflicts": []
+  },
+  "watch_summary": {
+   "plays": 4,
+   "completions": 2,
+   "play_days_last_14": 2,
+   "top_genre": "Drama",
+   "last_app_open_at": "2026-10-01T12:59:52.027Z"
+  }
+ },
+ "active_goal": {
+  "id": "first_paid_7d",
+  "goal_id": "G05",
+  "start": "2026-10-01T08:20:49.032Z",
+  "deadline": "2026-10-08T08:20:49.032Z",
+  "success_signal": "purchase_completed",
+  "success_condition": "is_trial = false",
+  "rule_version": "v1",
+  "target": {},
+  "status": "open",
+  "evidence": [
+   "subscription_status=never (profile_snapshot)",
+   "no paid purchase observed"
+  ],
+  "assumptions": [
+   "'Never had a paid plan' = status 'never' AND no non-trial purchase/renewal anywhere in the events."
+  ],
+  "revisions": [],
+  "shadow": false,
+  "decision_id": "D-1055"
+ },
+ "goal_history": [
+  {
+   "id": "first_paid_7d",
+   "goal_id": "G05",
+   "start": "2026-10-01T08:20:49.032Z",
+   "deadline": "2026-10-08T08:20:49.032Z",
+   "success_signal": "purchase_completed",
+   "success_condition": "is_trial = false",
+   "rule_version": "v1",
+   "target": {},
+   "status": "open",
+   "evidence": [
+    "subscription_status=never (profile_snapshot)",
+    "no paid purchase observed"
+   ],
+   "assumptions": [
+    "'Never had a paid plan' = status 'never' AND no non-trial purchase/renewal anywhere in the events."
+   ],
+   "revisions": [],
+   "shadow": false,
+   "decision_id": "D-1055"
+  }
+ ],
+ "pending_actions": [],
+ "published_actions": [
+  {
+   "action_id": "A-0417",
+   "type": "home_page",
+   "published_at": "2026-10-01T08:20:49.032Z"
+  },
+  {
+   "action_id": "A-0595",
+   "type": "home_page",
+   "published_at": "2026-10-01T11:29:39.129Z"
+  },
+  {
+   "action_id": "A-0891",
+   "type": "home_page",
+   "published_at": "2026-10-01T15:00:55.559Z"
+  }
+ ],
+ "cancelled_actions": [],
+ "live_page": {
+  "action_id": "A-0891",
+  "published_at": "2026-10-01T15:00:55.559Z",
+  "dialect": "d4",
+  "title_ids": [
+   "T0921",
+   "T1811",
+   "T0919",
+   "T1812",
+   "T1814",
+   "T0917",
+   "T0932",
+   "T1813",
+   "T0920",
+   "T1816",
+   "T0928",
+   "T1815",
+   "T1818",
+   "T0936",
+   "T0939",
+   "T1820",
+   "T0956",
+   "T1819",
+   "T0974",
+   "T0999",
+   "T0941",
+   "T1008",
+   "T1011",
+   "T1014",
+   "T1017",
+   "T0985",
+   "T0952",
+   "T0980",
+   "T1082",
+   "T1841",
+   "T0963",
+   "T0979",
+   "T0981",
+   "T0923",
+   "T0942",
+   "T0931",
+   "T0957",
+   "T0934",
+   "T0940",
+   "T0949",
+   "T0950"
+  ],
+  "ttl_minutes": 120
+ },
+ "message_ledger": {},
+ "in_app_ledger": {},
+ "processed_trigger_ids": [
+  "03b028ca-6942-4dea-98ef-084359354051",
+  "e8b1c047-d9b0-4e79-870d-2e43dd5a7150",
+  "1c2f97eb-d5d6-4223-92e8-d7a6764ce0a4",
+  "fc496392-a545-41a7-8e49-007d20cfbc13"
+ ],
+ "decisions": [
+  {
+   "decision_id": "D-1055",
+   "action": "HOME_PAGE",
+   "status": "PUBLISHED",
+   "reason": null,
+   "at": "2026-10-01T08:20:49.032Z"
+  },
+  {
+   "decision_id": "D-1435",
+   "action": "HOME_PAGE",
+   "status": "PUBLISHED",
+   "reason": null,
+   "at": "2026-10-01T11:29:39.129Z"
+  },
+  {
+   "decision_id": "D-1642",
+   "action": "NO_ACTION",
+   "status": "ABSTAINED",
+   "reason": "app_dialect_unresolved",
+   "at": "2026-10-01T12:59:52.032Z"
+  },
+  {
+   "decision_id": "D-2043",
+   "action": "HOME_PAGE",
+   "status": "PUBLISHED",
+   "reason": null,
+   "at": "2026-10-01T15:00:55.559Z"
+  }
+ ],
+ "learnings": [
+  {
+   "at": "2026-10-15T18:30:00.000Z",
+   "learning": "goal G05 failed"
+  }
+ ],
+ "revisions": [],
+ "last_trigger": {
+  "event_id": "fc496392-a545-41a7-8e49-007d20cfbc13",
+  "user_id": "U-02520",
+  "event": "app_open",
+  "occurred_at": "2026-10-01T15:00:53.764Z",
+  "sent_at": "2026-10-01T15:00:53.764Z",
+  "received_at": "2026-10-01T15:00:55.544Z",
+  "session_id": "a3795e6b-5222-497e-91ef-60682e3511ee",
+  "app_dialect": "d4",
+  "app_language": "en",
+  "platform": "android",
+  "app_version": "6.1.4",
+  "properties": {},
+  "deliver_at": "2026-10-01T15:00:55.544Z"
+ },
+ "event_summary": {
+  "events_known": 37,
+  "by_type": {
+   "app_open": 13,
+   "episode_completed": 2,
+   "home_viewed": 7,
+   "paywall_viewed": 1,
+   "play_progress": 9,
+   "play_started": 4,
+   "search": 1
+  }
+ }
+}

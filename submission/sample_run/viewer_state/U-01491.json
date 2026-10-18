@@ -1,0 +1,252 @@
+{
+ "user_id": "U-01491",
+ "arm": "agent",
+ "profile": {
+  "user_id": "U-01491",
+  "signup_at": "2025-01-31T00:26:42.735Z",
+  "subscription_status": "active",
+  "plan_started_at": "2026-09-04T16:24:54.355Z",
+  "plan_ends_at": "2026-10-04T16:24:54.355Z",
+  "preferred_dialect": "d1",
+  "preferred_language": "en",
+  "notifications_opt_in": "true",
+  "whatsapp_opt_in": "false",
+  "platform": "android",
+  "updated_at": "2026-09-28T22:49:46.456Z",
+  "snapshot_at": "2026-09-30T00:00:00.000Z"
+ },
+ "profile_source": "profiles_snapshot",
+ "facts": {
+  "signup_at": {
+   "value": "2025-01-31T00:26:42.735Z",
+   "source": "profile_snapshot",
+   "as_of": "2026-09-30T00:00:00.000Z",
+   "freshness_s": 111789,
+   "conflicts": []
+  },
+  "subscription_status": {
+   "value": "active",
+   "source": "profile_snapshot",
+   "as_of": "2026-09-30T00:00:00.000Z",
+   "freshness_s": 111789,
+   "conflicts": []
+  },
+  "has_ever_paid": {
+   "value": true,
+   "source": "profile+events",
+   "as_of": "2026-10-01T07:03:09.163Z",
+   "freshness_s": 0,
+   "conflicts": []
+  },
+  "last_lapse_at": {
+   "value": null,
+   "source": "none",
+   "as_of": "2026-10-01T07:03:09.163Z",
+   "freshness_s": 0,
+   "conflicts": []
+  },
+  "notifications_opt_in": {
+   "value": true,
+   "source": "profile_snapshot",
+   "as_of": "2026-09-30T00:00:00.000Z",
+   "freshness_s": 111789,
+   "conflicts": []
+  },
+  "whatsapp_opt_in": {
+   "value": false,
+   "source": "profile_snapshot",
+   "as_of": "2026-09-30T00:00:00.000Z",
+   "freshness_s": 111789,
+   "conflicts": []
+  },
+  "dialect": {
+   "value": "d1",
+   "source": "app_setting",
+   "as_of": "2026-10-01T07:03:09.163Z",
+   "freshness_s": 0,
+   "conflicts": [],
+   "page_displayable": true
+  },
+  "language": {
+   "value": "en",
+   "source": "app_setting",
+   "as_of": "2026-10-01T07:03:09.163Z",
+   "freshness_s": 0,
+   "conflicts": []
+  },
+  "observed_since": {
+   "value": "2026-09-03T07:57:40.711Z",
+   "source": "events",
+   "as_of": "2026-10-01T07:03:09.163Z",
+   "freshness_s": 0,
+   "conflicts": []
+  },
+  "watch_summary": {
+   "plays": 18,
+   "completions": 10,
+   "play_days_last_14": 5,
+   "top_genre": "Devotional",
+   "last_app_open_at": "2026-09-30T10:34:47.790Z"
+  }
+ },
+ "active_goal": {
+  "id": "try_new_release_7d",
+  "goal_id": "G08",
+  "start": "2026-10-01T07:03:09.521Z",
+  "deadline": "2026-10-08T07:03:09.521Z",
+  "success_signal": "play_started",
+  "success_condition": "a title released in the 30 days before the goal start",
+  "rule_version": "v1",
+  "target": {},
+  "status": "open",
+  "evidence": [
+   "subscription_status=active (profile_snapshot)"
+  ],
+  "assumptions": [
+   "'Recent release' = catalogue release_date within the 30 days before the goal start."
+  ],
+  "revisions": [],
+  "shadow": false,
+  "decision_id": "D-0870"
+ },
+ "goal_history": [
+  {
+   "id": "try_new_release_7d",
+   "goal_id": "G08",
+   "start": "2026-10-01T07:03:09.521Z",
+   "deadline": "2026-10-08T07:03:09.521Z",
+   "success_signal": "play_started",
+   "success_condition": "a title released in the 30 days before the goal start",
+   "rule_version": "v1",
+   "target": {},
+   "status": "open",
+   "evidence": [
+    "subscription_status=active (profile_snapshot)"
+   ],
+   "assumptions": [
+    "'Recent release' = catalogue release_date within the 30 days before the goal start."
+   ],
+   "revisions": [],
+   "shadow": false,
+   "decision_id": "D-0870"
+  }
+ ],
+ "pending_actions": [],
+ "published_actions": [
+  {
+   "action_id": "A-0326",
+   "type": "home_page",
+   "published_at": "2026-10-01T07:03:09.521Z"
+  }
+ ],
+ "cancelled_actions": [],
+ "live_page": {
+  "action_id": "A-0326",
+  "published_at": "2026-10-01T07:03:09.521Z",
+  "dialect": "d1",
+  "title_ids": [
+   "T0007",
+   "T0028",
+   "T0031",
+   "T0047",
+   "T0063",
+   "T1520",
+   "T1523",
+   "T1540",
+   "T0036",
+   "T1502",
+   "T1507",
+   "T1506",
+   "T0015",
+   "T0034",
+   "T1511",
+   "T0018",
+   "T1510",
+   "T1509",
+   "T0022",
+   "T1516",
+   "T1518",
+   "T0055",
+   "T0067",
+   "T0077",
+   "T0081",
+   "T0005",
+   "T1505",
+   "T0016",
+   "T1512",
+   "T0030",
+   "T1513",
+   "T0226",
+   "T0273",
+   "T1504",
+   "T0013",
+   "T0012",
+   "T1508",
+   "T0026",
+   "T0037",
+   "T0019",
+   "T0020"
+  ],
+  "ttl_minutes": 120
+ },
+ "message_ledger": {},
+ "in_app_ledger": {},
+ "processed_trigger_ids": [
+  "d8fbbd23-769c-48a0-8fef-1ddb7c2a6236",
+  "c4aa35fb-cb54-4d3f-a568-0d6f6efd61bd"
+ ],
+ "decisions": [
+  {
+   "decision_id": "D-0448",
+   "action": "NO_ACTION",
+   "status": "ABSTAINED",
+   "reason": "stale_offline_buffered_trigger",
+   "at": "2026-10-01T04:46:05.478Z"
+  },
+  {
+   "decision_id": "D-0870",
+   "action": "HOME_PAGE",
+   "status": "PUBLISHED",
+   "reason": null,
+   "at": "2026-10-01T07:03:09.521Z"
+  }
+ ],
+ "learnings": [
+  {
+   "at": "2026-10-15T18:30:00.000Z",
+   "learning": "goal G08 failed"
+  }
+ ],
+ "revisions": [],
+ "last_trigger": {
+  "event_id": "c4aa35fb-cb54-4d3f-a568-0d6f6efd61bd",
+  "user_id": "U-01491",
+  "event": "app_open",
+  "occurred_at": "2026-10-01T07:03:08.000Z",
+  "sent_at": "2026-10-01T07:03:08.000Z",
+  "received_at": "2026-10-01T07:03:09.163Z",
+  "session_id": "4c707ad6-96b6-4f8f-816b-fd7b94c02592",
+  "app_dialect": "d1",
+  "app_language": "en",
+  "platform": "android",
+  "app_version": "6.1.5",
+  "properties": {
+   "deeplink": "ott://c/cmp008/d1/title/T1501"
+  },
+  "deliver_at": "2026-10-01T07:03:09.163Z"
+ },
+ "event_summary": {
+  "events_known": 146,
+  "by_type": {
+   "app_open": 34,
+   "episode_completed": 10,
+   "home_viewed": 26,
+   "login_success": 1,
+   "play_progress": 42,
+   "play_started": 18,
+   "search": 4,
+   "subscription_renewed": 1,
+   "title_viewed": 10
+  }
+ }
+}

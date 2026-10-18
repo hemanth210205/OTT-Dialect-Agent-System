@@ -1,0 +1,222 @@
+{
+ "user_id": "U-00003",
+ "arm": "holdout",
+ "profile": {
+  "user_id": "U-00003",
+  "signup_at": "2026-06-24T00:24:05.448Z",
+  "subscription_status": "active",
+  "plan_started_at": "2026-09-13T20:00:32.296Z",
+  "plan_ends_at": "2026-10-13T20:00:32.296Z",
+  "preferred_dialect": "d2",
+  "preferred_language": "hin",
+  "notifications_opt_in": "true",
+  "whatsapp_opt_in": "false",
+  "platform": "android",
+  "updated_at": "2026-09-29T15:04:16.317Z",
+  "snapshot_at": "2026-09-30T00:00:00.000Z"
+ },
+ "profile_source": "profiles_snapshot",
+ "facts": {
+  "signup_at": {
+   "value": "2026-06-24T00:24:05.448Z",
+   "source": "profile_snapshot",
+   "as_of": "2026-09-30T00:00:00.000Z",
+   "freshness_s": 146184,
+   "conflicts": []
+  },
+  "subscription_status": {
+   "value": "active",
+   "source": "profile_snapshot",
+   "as_of": "2026-09-30T00:00:00.000Z",
+   "freshness_s": 146184,
+   "conflicts": []
+  },
+  "has_ever_paid": {
+   "value": true,
+   "source": "profile+events",
+   "as_of": "2026-10-01T16:36:24.418Z",
+   "freshness_s": 0,
+   "conflicts": []
+  },
+  "last_lapse_at": {
+   "value": null,
+   "source": "none",
+   "as_of": "2026-10-01T16:36:24.418Z",
+   "freshness_s": 0,
+   "conflicts": []
+  },
+  "notifications_opt_in": {
+   "value": true,
+   "source": "profile_snapshot",
+   "as_of": "2026-09-30T00:00:00.000Z",
+   "freshness_s": 146184,
+   "conflicts": []
+  },
+  "whatsapp_opt_in": {
+   "value": false,
+   "source": "profile_snapshot",
+   "as_of": "2026-09-30T00:00:00.000Z",
+   "freshness_s": 146184,
+   "conflicts": []
+  },
+  "dialect": {
+   "value": "d3",
+   "source": "app_setting",
+   "as_of": "2026-10-01T16:36:24.418Z",
+   "freshness_s": 0,
+   "conflicts": [
+    "profile:d2",
+    "deeplink:d4"
+   ],
+   "page_displayable": true
+  },
+  "language": {
+   "value": "hin",
+   "source": "app_setting",
+   "as_of": "2026-10-01T16:36:24.418Z",
+   "freshness_s": 0,
+   "conflicts": []
+  },
+  "observed_since": {
+   "value": "2026-09-02T08:23:26.938Z",
+   "source": "events",
+   "as_of": "2026-10-01T16:36:24.418Z",
+   "freshness_s": 0,
+   "conflicts": []
+  },
+  "watch_summary": {
+   "plays": 9,
+   "completions": 8,
+   "play_days_last_14": 3,
+   "top_genre": "Action",
+   "last_app_open_at": "2026-10-01T05:58:51.495Z"
+  }
+ },
+ "active_goal": {
+  "id": "resume_series_3d",
+  "goal_id": "G07",
+  "start": "2026-10-01T01:47:52.725Z",
+  "deadline": "2026-10-04T01:47:52.725Z",
+  "success_signal": "play_started",
+  "success_condition": "same content_slug as the unfinished series",
+  "rule_version": "v1",
+  "target": {
+   "content_slug": "lomobha-moni-d3",
+   "title_id": "T0908",
+   "furthest_episode": 4,
+   "next_episode": 5
+  },
+  "status": "open",
+  "evidence": [
+   "series lomobha-moni-d3: furthest episode 4 of 35, 4 completed, idle 157h"
+  ],
+  "assumptions": [
+   "AMBIGUOUS rule interpreted as: a show/micro_drama the viewer invested in (reached episode 2+ or completed an episode; sampling one episode and leaving is a bounce, not an unfinished series) whose furthest started episode is before its last, with no play_started of that content_slug in the 72h before the trigger (estimated true event time), in the dialect the app currently shows."
+  ],
+  "revisions": [],
+  "shadow": true,
+  "decision_id": "D-0130"
+ },
+ "goal_history": [
+  {
+   "id": "resume_series_3d",
+   "goal_id": "G07",
+   "start": "2026-10-01T01:47:52.725Z",
+   "deadline": "2026-10-04T01:47:52.725Z",
+   "success_signal": "play_started",
+   "success_condition": "same content_slug as the unfinished series",
+   "rule_version": "v1",
+   "target": {
+    "content_slug": "lomobha-moni-d3",
+    "title_id": "T0908",
+    "furthest_episode": 4,
+    "next_episode": 5
+   },
+   "status": "open",
+   "evidence": [
+    "series lomobha-moni-d3: furthest episode 4 of 35, 4 completed, idle 157h"
+   ],
+   "assumptions": [
+    "AMBIGUOUS rule interpreted as: a show/micro_drama the viewer invested in (reached episode 2+ or completed an episode; sampling one episode and leaving is a bounce, not an unfinished series) whose furthest started episode is before its last, with no play_started of that content_slug in the 72h before the trigger (estimated true event time), in the dialect the app currently shows."
+   ],
+   "revisions": [],
+   "shadow": true,
+   "decision_id": "D-0130"
+  }
+ ],
+ "pending_actions": [],
+ "published_actions": [],
+ "cancelled_actions": [],
+ "live_page": null,
+ "message_ledger": {},
+ "in_app_ledger": {},
+ "processed_trigger_ids": [
+  "842aa81f-c450-4589-8a37-5bcf8efa939d",
+  "17437f8b-4f18-411c-9143-a775c5ddf81b",
+  "6a729f3c-15f3-4e94-afaf-eabf9887b82c",
+  "a4483aa7-8493-4ff4-a13a-e3a8852b88f0"
+ ],
+ "decisions": [
+  {
+   "decision_id": "D-0130",
+   "action": "NO_ACTION",
+   "status": "ABSTAINED",
+   "reason": "holdout_user",
+   "at": "2026-10-01T01:47:52.725Z"
+  },
+  {
+   "decision_id": "D-0742",
+   "action": "NO_ACTION",
+   "status": "ABSTAINED",
+   "reason": "holdout_user",
+   "at": "2026-10-01T05:58:51.510Z"
+  },
+  {
+   "decision_id": "D-2505",
+   "action": "NO_ACTION",
+   "status": "ABSTAINED",
+   "reason": "app_dialect_unresolved",
+   "at": "2026-10-01T16:36:21.353Z"
+  },
+  {
+   "decision_id": "D-2506",
+   "action": "NO_ACTION",
+   "status": "ABSTAINED",
+   "reason": "holdout_user",
+   "at": "2026-10-01T16:36:24.426Z"
+  }
+ ],
+ "learnings": [],
+ "revisions": [],
+ "last_trigger": {
+  "event_id": "a4483aa7-8493-4ff4-a13a-e3a8852b88f0",
+  "user_id": "U-00003",
+  "event": "app_open",
+  "occurred_at": "2026-10-01T16:36:23.000Z",
+  "sent_at": "2026-10-01T16:36:23.000Z",
+  "received_at": "2026-10-01T16:36:24.418Z",
+  "session_id": "81ec73a9-587e-497b-8ffe-34a9757894e3",
+  "app_dialect": "d3",
+  "app_language": "hin",
+  "platform": "android",
+  "app_version": "6.1.4",
+  "properties": {
+   "deeplink": "ott://c/cmp009/d4/title/T0921"
+  },
+  "deliver_at": "2026-10-01T16:36:24.418Z"
+ },
+ "event_summary": {
+  "events_known": 86,
+  "by_type": {
+   "app_open": 20,
+   "episode_completed": 8,
+   "home_viewed": 14,
+   "login_success": 2,
+   "play_progress": 26,
+   "play_started": 9,
+   "search": 2,
+   "subscription_renewed": 1,
+   "title_viewed": 4
+  }
+ }
+}

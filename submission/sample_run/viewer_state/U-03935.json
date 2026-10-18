@@ -1,0 +1,227 @@
+{
+ "user_id": "U-03935",
+ "arm": "agent",
+ "profile": {
+  "user_id": "U-03935",
+  "signup_at": "2026-08-20T01:47:03.100Z",
+  "subscription_status": "active",
+  "plan_started_at": "2026-09-21T06:20:29.121Z",
+  "plan_ends_at": "2026-10-21T06:20:29.121Z",
+  "preferred_dialect": "d3",
+  "preferred_language": "hin",
+  "notifications_opt_in": "true",
+  "whatsapp_opt_in": "false",
+  "platform": "android",
+  "updated_at": "2026-09-29T12:37:28.371Z",
+  "snapshot_at": "2026-09-30T00:00:00.000Z"
+ },
+ "profile_source": "profiles_snapshot",
+ "facts": {
+  "signup_at": {
+   "value": "2026-08-20T01:47:03.100Z",
+   "source": "profile_snapshot",
+   "as_of": "2026-09-30T00:00:00.000Z",
+   "freshness_s": 112431,
+   "conflicts": []
+  },
+  "subscription_status": {
+   "value": "active",
+   "source": "profile_snapshot",
+   "as_of": "2026-09-30T00:00:00.000Z",
+   "freshness_s": 112431,
+   "conflicts": []
+  },
+  "has_ever_paid": {
+   "value": true,
+   "source": "profile+events",
+   "as_of": "2026-10-01T07:13:51.684Z",
+   "freshness_s": 0,
+   "conflicts": []
+  },
+  "last_lapse_at": {
+   "value": null,
+   "source": "none",
+   "as_of": "2026-10-01T07:13:51.684Z",
+   "freshness_s": 0,
+   "conflicts": []
+  },
+  "notifications_opt_in": {
+   "value": true,
+   "source": "profile_snapshot",
+   "as_of": "2026-09-30T00:00:00.000Z",
+   "freshness_s": 112431,
+   "conflicts": []
+  },
+  "whatsapp_opt_in": {
+   "value": false,
+   "source": "profile_snapshot",
+   "as_of": "2026-09-30T00:00:00.000Z",
+   "freshness_s": 112431,
+   "conflicts": []
+  },
+  "dialect": {
+   "value": "d3",
+   "source": "app_setting",
+   "as_of": "2026-10-01T07:13:51.684Z",
+   "freshness_s": 0,
+   "conflicts": [],
+   "page_displayable": true
+  },
+  "language": {
+   "value": "hin",
+   "source": "app_setting",
+   "as_of": "2026-10-01T07:13:51.684Z",
+   "freshness_s": 0,
+   "conflicts": []
+  },
+  "observed_since": {
+   "value": "2026-09-05T16:21:41.750Z",
+   "source": "events",
+   "as_of": "2026-10-01T07:13:51.684Z",
+   "freshness_s": 0,
+   "conflicts": []
+  },
+  "watch_summary": {
+   "plays": 5,
+   "completions": 4,
+   "play_days_last_14": 3,
+   "top_genre": "Romance",
+   "last_app_open_at": "2026-09-30T16:12:14.558Z"
+  }
+ },
+ "active_goal": {
+  "id": "resume_series_3d",
+  "goal_id": "G07",
+  "start": "2026-10-01T07:13:52.000Z",
+  "deadline": "2026-10-04T07:13:52.000Z",
+  "success_signal": "play_started",
+  "success_condition": "same content_slug as the unfinished series",
+  "rule_version": "v1",
+  "target": {
+   "content_slug": "yatite-roloda-d3",
+   "title_id": "T0901",
+   "furthest_episode": 3,
+   "next_episode": 4
+  },
+  "status": "open",
+  "evidence": [
+   "series yatite-roloda-d3: furthest episode 3 of 23, 3 completed, idle 207h"
+  ],
+  "assumptions": [
+   "AMBIGUOUS rule interpreted as: a show/micro_drama the viewer invested in (reached episode 2+ or completed an episode; sampling one episode and leaving is a bounce, not an unfinished series) whose furthest started episode is before its last, with no play_started of that content_slug in the 72h before the trigger (estimated true event time), in the dialect the app currently shows."
+  ],
+  "revisions": [],
+  "shadow": false,
+  "decision_id": "D-0897"
+ },
+ "goal_history": [
+  {
+   "id": "resume_series_3d",
+   "goal_id": "G07",
+   "start": "2026-10-01T07:13:52.000Z",
+   "deadline": "2026-10-04T07:13:52.000Z",
+   "success_signal": "play_started",
+   "success_condition": "same content_slug as the unfinished series",
+   "rule_version": "v1",
+   "target": {
+    "content_slug": "yatite-roloda-d3",
+    "title_id": "T0901",
+    "furthest_episode": 3,
+    "next_episode": 4
+   },
+   "status": "open",
+   "evidence": [
+    "series yatite-roloda-d3: furthest episode 3 of 23, 3 completed, idle 207h"
+   ],
+   "assumptions": [
+    "AMBIGUOUS rule interpreted as: a show/micro_drama the viewer invested in (reached episode 2+ or completed an episode; sampling one episode and leaving is a bounce, not an unfinished series) whose furthest started episode is before its last, with no play_started of that content_slug in the 72h before the trigger (estimated true event time), in the dialect the app currently shows."
+   ],
+   "revisions": [],
+   "shadow": false,
+   "decision_id": "D-0897"
+  }
+ ],
+ "pending_actions": [],
+ "published_actions": [
+  {
+   "action_id": "A-0343",
+   "type": "home_page",
+   "published_at": "2026-10-01T07:13:52.000Z"
+  },
+  {
+   "action_id": "A-0344",
+   "type": "push",
+   "send_at": "2026-10-02T13:30:00.000Z"
+  }
+ ],
+ "cancelled_actions": [],
+ "live_page": {
+  "action_id": "A-0343",
+  "published_at": "2026-10-01T07:13:52.000Z",
+  "dialect": "d3",
+  "title_ids": [
+   "T0901",
+   "T0910",
+   "T0909",
+   "T0906",
+   "T0903",
+   "T0914",
+   "T0908"
+  ],
+  "ttl_minutes": 120
+ },
+ "message_ledger": {
+  "2026-10-02": 1
+ },
+ "in_app_ledger": {},
+ "processed_trigger_ids": [
+  "6c9409aa-0003-46dc-a6c3-5c41372865aa"
+ ],
+ "decisions": [
+  {
+   "decision_id": "D-0897",
+   "action": "HOME_PAGE",
+   "status": "PUBLISHED",
+   "reason": null,
+   "at": "2026-10-01T07:13:52.000Z"
+  }
+ ],
+ "learnings": [
+  {
+   "at": "2026-10-15T18:30:00.000Z",
+   "learning": "goal G07 failed"
+  }
+ ],
+ "revisions": [],
+ "last_trigger": {
+  "event_id": "6c9409aa-0003-46dc-a6c3-5c41372865aa",
+  "user_id": "U-03935",
+  "event": "app_open",
+  "occurred_at": "2026-10-01T07:13:50.000Z",
+  "sent_at": "2026-10-01T07:13:50.000Z",
+  "received_at": "2026-10-01T07:13:51.684Z",
+  "session_id": "93fde673-6107-4337-b41f-d3efafa2260e",
+  "app_dialect": "d3",
+  "app_language": "hin",
+  "platform": "android",
+  "app_version": "6.2.0",
+  "properties": {
+   "deeplink": "ott://c/cmp058/d3/title/T0908"
+  },
+  "deliver_at": "2026-10-01T07:13:51.684Z"
+ },
+ "event_summary": {
+  "events_known": 60,
+  "by_type": {
+   "app_open": 18,
+   "episode_completed": 4,
+   "home_viewed": 14,
+   "login_success": 1,
+   "play_progress": 12,
+   "play_started": 5,
+   "search": 1,
+   "subscription_renewed": 1,
+   "title_viewed": 4
+  }
+ }
+}

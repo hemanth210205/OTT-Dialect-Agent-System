@@ -1,0 +1,29 @@
+{
+ "user_id": "U-01159",
+ "arm": "holdout",
+ "profile": null,
+ "profile_source": "synthesized_from_signup_event:c618424e-1e8f-4214-91cd-abc5eac250b4",
+ "facts": {},
+ "active_goal": null,
+ "goal_history": [],
+ "pending_actions": [],
+ "published_actions": [],
+ "cancelled_actions": [],
+ "live_page": null,
+ "message_ledger": {},
+ "in_app_ledger": {},
+ "processed_trigger_ids": [],
+ "decisions": [],
+ "learnings": [],
+ "revisions": [],
+ "event_summary": {
+  "events_known": 5,
+  "by_type": {
+   "app_open": 1,
+   "home_viewed": 1,
+   "login_success": 1,
+   "search": 1,
+   "signup_completed": 1
+  }
+ }
+}

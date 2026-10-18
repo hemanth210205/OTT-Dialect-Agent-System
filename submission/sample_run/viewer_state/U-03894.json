@@ -1,0 +1,261 @@
+{
+ "user_id": "U-03894",
+ "arm": "agent",
+ "profile": {
+  "user_id": "U-03894",
+  "signup_at": "2024-11-19T00:27:59.551Z",
+  "subscription_status": "lapsed",
+  "plan_started_at": "",
+  "plan_ends_at": "",
+  "preferred_dialect": "d4",
+  "preferred_language": "hin",
+  "notifications_opt_in": "true",
+  "whatsapp_opt_in": "false",
+  "platform": "android",
+  "updated_at": "2026-09-29T03:58:02.763Z",
+  "snapshot_at": "2026-09-30T00:00:00.000Z"
+ },
+ "profile_source": "profiles_snapshot",
+ "facts": {
+  "signup_at": {
+   "value": "2024-11-19T00:27:59.551Z",
+   "source": "profile_snapshot",
+   "as_of": "2026-09-30T00:00:00.000Z",
+   "freshness_s": 138572,
+   "conflicts": []
+  },
+  "subscription_status": {
+   "value": "lapsed",
+   "source": "profile_snapshot",
+   "as_of": "2026-09-30T00:00:00.000Z",
+   "freshness_s": 138572,
+   "conflicts": []
+  },
+  "has_ever_paid": {
+   "value": true,
+   "source": "profile+events",
+   "as_of": "2026-10-01T14:29:32.922Z",
+   "freshness_s": 0,
+   "conflicts": []
+  },
+  "last_lapse_at": {
+   "value": "2026-09-02T17:30:46.352Z",
+   "source": "event:subscription_lapsed",
+   "as_of": "2026-10-01T14:29:32.922Z",
+   "freshness_s": 0,
+   "conflicts": []
+  },
+  "notifications_opt_in": {
+   "value": true,
+   "source": "profile_snapshot",
+   "as_of": "2026-09-30T00:00:00.000Z",
+   "freshness_s": 138572,
+   "conflicts": []
+  },
+  "whatsapp_opt_in": {
+   "value": false,
+   "source": "profile_snapshot",
+   "as_of": "2026-09-30T00:00:00.000Z",
+   "freshness_s": 138572,
+   "conflicts": []
+  },
+  "dialect": {
+   "value": "d4",
+   "source": "app_setting",
+   "as_of": "2026-10-01T14:29:32.922Z",
+   "freshness_s": 0,
+   "conflicts": [],
+   "page_displayable": true
+  },
+  "language": {
+   "value": "hin",
+   "source": "app_setting",
+   "as_of": "2026-10-01T14:29:32.922Z",
+   "freshness_s": 0,
+   "conflicts": []
+  },
+  "observed_since": {
+   "value": "2026-09-02T10:18:15.090Z",
+   "source": "events",
+   "as_of": "2026-10-01T14:29:32.922Z",
+   "freshness_s": 0,
+   "conflicts": []
+  },
+  "watch_summary": {
+   "plays": 6,
+   "completions": 1,
+   "play_days_last_14": 1,
+   "top_genre": "Crime",
+   "last_app_open_at": "2026-09-27T07:21:57.685Z"
+  }
+ },
+ "active_goal": {
+  "id": "resume_series_3d",
+  "goal_id": "G07",
+  "start": "2026-10-01T14:29:33.152Z",
+  "deadline": "2026-10-04T14:29:33.152Z",
+  "success_signal": "play_started",
+  "success_condition": "same content_slug as the unfinished series",
+  "rule_version": "v1.1",
+  "target": {
+   "content_slug": "gimo-nati-d4",
+   "title_id": "T0978",
+   "furthest_episode": 1,
+   "next_episode": 2
+  },
+  "status": "open",
+  "evidence": [
+   "series gimo-nati-d4: furthest episode 1 of 13, 1 completed, idle 453h"
+  ],
+  "assumptions": [
+   "AMBIGUOUS rule interpreted as: a show/micro_drama the viewer invested in (reached episode 2+ or completed an episode; sampling one episode and leaving is a bounce, not an unfinished series) whose furthest started episode is before its last, with no play_started of that content_slug in the 72h before the trigger (estimated true event time), in the dialect the app currently shows."
+  ],
+  "revisions": [],
+  "shadow": false,
+  "decision_id": "D-1927"
+ },
+ "goal_history": [
+  {
+   "id": "resume_series_3d",
+   "goal_id": "G07",
+   "start": "2026-10-01T14:29:33.152Z",
+   "deadline": "2026-10-04T14:29:33.152Z",
+   "success_signal": "play_started",
+   "success_condition": "same content_slug as the unfinished series",
+   "rule_version": "v1.1",
+   "target": {
+    "content_slug": "gimo-nati-d4",
+    "title_id": "T0978",
+    "furthest_episode": 1,
+    "next_episode": 2
+   },
+   "status": "open",
+   "evidence": [
+    "series gimo-nati-d4: furthest episode 1 of 13, 1 completed, idle 453h"
+   ],
+   "assumptions": [
+    "AMBIGUOUS rule interpreted as: a show/micro_drama the viewer invested in (reached episode 2+ or completed an episode; sampling one episode and leaving is a bounce, not an unfinished series) whose furthest started episode is before its last, with no play_started of that content_slug in the 72h before the trigger (estimated true event time), in the dialect the app currently shows."
+   ],
+   "revisions": [],
+   "shadow": false,
+   "decision_id": "D-1927"
+  }
+ ],
+ "pending_actions": [],
+ "published_actions": [
+  {
+   "action_id": "A-0828",
+   "type": "home_page",
+   "published_at": "2026-10-01T14:29:33.152Z"
+  },
+  {
+   "action_id": "A-0829",
+   "type": "push",
+   "send_at": "2026-10-02T13:30:00.000Z"
+  }
+ ],
+ "cancelled_actions": [],
+ "live_page": {
+  "action_id": "A-0828",
+  "published_at": "2026-10-01T14:29:33.152Z",
+  "dialect": "d4",
+  "title_ids": [
+   "T0978",
+   "T0921",
+   "T0932",
+   "T0928",
+   "T0936",
+   "T0944",
+   "T0974",
+   "T1176",
+   "T0948",
+   "T0919",
+   "T0917",
+   "T0918",
+   "T0920",
+   "T0924",
+   "T0922",
+   "T0923",
+   "T0925",
+   "T0956",
+   "T0999",
+   "T0937",
+   "T0941",
+   "T0971",
+   "T0988",
+   "T1008",
+   "T1011",
+   "T0953",
+   "T0958",
+   "T1058",
+   "T0962",
+   "T0963",
+   "T0972",
+   "T0982",
+   "T0996",
+   "T0926",
+   "T0957",
+   "T0935",
+   "T0949",
+   "T0950",
+   "T0951",
+   "T0952",
+   "T0984"
+  ],
+  "ttl_minutes": 120
+ },
+ "message_ledger": {
+  "2026-10-02": 1
+ },
+ "in_app_ledger": {},
+ "processed_trigger_ids": [
+  "5982f123-7e90-4e03-bc96-2b50bc25fa9d"
+ ],
+ "decisions": [
+  {
+   "decision_id": "D-1927",
+   "action": "HOME_PAGE",
+   "status": "PUBLISHED",
+   "reason": null,
+   "at": "2026-10-01T14:29:33.152Z"
+  }
+ ],
+ "learnings": [
+  {
+   "at": "2026-10-15T18:30:00.000Z",
+   "learning": "goal G07 failed"
+  }
+ ],
+ "revisions": [],
+ "last_trigger": {
+  "event_id": "5982f123-7e90-4e03-bc96-2b50bc25fa9d",
+  "user_id": "U-03894",
+  "event": "app_open",
+  "occurred_at": "2026-10-01T14:29:32.000Z",
+  "sent_at": "2026-10-01T14:29:32.000Z",
+  "received_at": "2026-10-01T14:29:32.922Z",
+  "session_id": "ca480d42-648e-434e-aeb6-7656be87d97f",
+  "app_dialect": "d4",
+  "app_language": "hin",
+  "platform": "android",
+  "app_version": "6.0.7",
+  "properties": {
+   "deeplink": "ott://c/cmp048/d4/title/T0915"
+  },
+  "deliver_at": "2026-10-01T14:29:32.922Z"
+ },
+ "event_summary": {
+  "events_known": 48,
+  "by_type": {
+   "app_open": 13,
+   "episode_completed": 1,
+   "home_viewed": 9,
+   "paywall_viewed": 1,
+   "play_progress": 8,
+   "play_started": 6,
+   "search": 1,
+   "subscription_lapsed": 1,
+   "title_viewed": 8
+  }
+ }
+}

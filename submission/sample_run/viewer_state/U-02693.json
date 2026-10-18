@@ -1,0 +1,170 @@
+{
+ "user_id": "U-02693",
+ "arm": "holdout",
+ "profile": null,
+ "profile_source": null,
+ "facts": {
+  "signup_at": {
+   "value": null,
+   "source": "unknown",
+   "as_of": "2026-10-01T02:58:00.124Z",
+   "freshness_s": 0,
+   "conflicts": []
+  },
+  "subscription_status": {
+   "value": "active",
+   "source": "event:subscription_renewed:83dcdfd9-35d2-455d-b03d-8ea7a065b9ce",
+   "as_of": "2026-09-21T15:08:50.716Z",
+   "freshness_s": 820149,
+   "conflicts": []
+  },
+  "has_ever_paid": {
+   "value": true,
+   "source": "profile+events",
+   "as_of": "2026-10-01T02:58:00.124Z",
+   "freshness_s": 0,
+   "conflicts": []
+  },
+  "last_lapse_at": {
+   "value": null,
+   "source": "none",
+   "as_of": "2026-10-01T02:58:00.124Z",
+   "freshness_s": 0,
+   "conflicts": []
+  },
+  "notifications_opt_in": {
+   "value": false,
+   "source": "missing:fail_closed",
+   "as_of": "2026-09-30T00:00:00.000Z",
+   "freshness_s": 97080,
+   "conflicts": []
+  },
+  "whatsapp_opt_in": {
+   "value": false,
+   "source": "missing:fail_closed",
+   "as_of": "2026-09-30T00:00:00.000Z",
+   "freshness_s": 97080,
+   "conflicts": []
+  },
+  "dialect": {
+   "value": "d1",
+   "source": "app_setting",
+   "as_of": "2026-10-01T02:58:00.124Z",
+   "freshness_s": 0,
+   "conflicts": [],
+   "page_displayable": true
+  },
+  "language": {
+   "value": "hin",
+   "source": "app_setting",
+   "as_of": "2026-10-01T02:58:00.124Z",
+   "freshness_s": 0,
+   "conflicts": []
+  },
+  "observed_since": {
+   "value": "2026-09-04T06:54:44.705Z",
+   "source": "events",
+   "as_of": "2026-10-01T02:58:00.124Z",
+   "freshness_s": 0,
+   "conflicts": []
+  },
+  "watch_summary": {
+   "plays": 5,
+   "completions": 0,
+   "play_days_last_14": 4,
+   "top_genre": "Drama",
+   "last_app_open_at": "2026-09-29T07:40:31.443Z"
+  }
+ },
+ "active_goal": {
+  "id": "first_full_episode_3d",
+  "goal_id": "G02",
+  "start": "2026-10-01T02:58:00.374Z",
+  "deadline": "2026-10-04T02:58:00.374Z",
+  "success_signal": "episode_completed",
+  "success_condition": "any episode",
+  "rule_version": "v1",
+  "target": {},
+  "status": "open",
+  "evidence": [
+   "episode_completed observed: 0",
+   "play_started observed: 5"
+  ],
+  "assumptions": [
+   "'Never completed an episode' is judged on the 30 days of observable history (older history is not in the pack)."
+  ],
+  "revisions": [],
+  "shadow": true,
+  "decision_id": "D-0196"
+ },
+ "goal_history": [
+  {
+   "id": "first_full_episode_3d",
+   "goal_id": "G02",
+   "start": "2026-10-01T02:58:00.374Z",
+   "deadline": "2026-10-04T02:58:00.374Z",
+   "success_signal": "episode_completed",
+   "success_condition": "any episode",
+   "rule_version": "v1",
+   "target": {},
+   "status": "open",
+   "evidence": [
+    "episode_completed observed: 0",
+    "play_started observed: 5"
+   ],
+   "assumptions": [
+    "'Never completed an episode' is judged on the 30 days of observable history (older history is not in the pack)."
+   ],
+   "revisions": [],
+   "shadow": true,
+   "decision_id": "D-0196"
+  }
+ ],
+ "pending_actions": [],
+ "published_actions": [],
+ "cancelled_actions": [],
+ "live_page": null,
+ "message_ledger": {},
+ "in_app_ledger": {},
+ "processed_trigger_ids": [
+  "6db3f545-336f-4d6a-bd43-afa4fbd96f95"
+ ],
+ "decisions": [
+  {
+   "decision_id": "D-0196",
+   "action": "NO_ACTION",
+   "status": "ABSTAINED",
+   "reason": "holdout_user",
+   "at": "2026-10-01T02:58:00.374Z"
+  }
+ ],
+ "learnings": [],
+ "revisions": [],
+ "last_trigger": {
+  "event_id": "6db3f545-336f-4d6a-bd43-afa4fbd96f95",
+  "user_id": "U-02693",
+  "event": "app_open",
+  "occurred_at": "2026-10-01T02:57:58.000Z",
+  "sent_at": "2026-10-01T02:57:58.000Z",
+  "received_at": "2026-10-01T02:58:00.124Z",
+  "session_id": "871ae786-714e-4229-ae37-9e6251dc6352",
+  "app_dialect": "d1",
+  "app_language": "hin",
+  "platform": "android",
+  "app_version": "6.1.4",
+  "properties": {},
+  "deliver_at": "2026-10-01T02:58:00.124Z"
+ },
+ "event_summary": {
+  "events_known": 37,
+  "by_type": {
+   "app_open": 13,
+   "home_viewed": 12,
+   "login_success": 1,
+   "play_progress": 1,
+   "play_started": 5,
+   "subscription_renewed": 1,
+   "title_viewed": 4
+  }
+ }
+}

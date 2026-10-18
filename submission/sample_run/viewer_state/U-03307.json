@@ -1,0 +1,227 @@
+{
+ "user_id": "U-03307",
+ "arm": "agent",
+ "profile": {
+  "user_id": "U-03307",
+  "signup_at": "2025-10-07T16:56:21.008Z",
+  "subscription_status": "active",
+  "plan_started_at": "2026-09-15T06:49:13.699Z",
+  "plan_ends_at": "2026-10-15T06:49:13.699Z",
+  "preferred_dialect": "d3",
+  "preferred_language": "hin",
+  "notifications_opt_in": "true",
+  "whatsapp_opt_in": "true",
+  "platform": "ios",
+  "updated_at": "2026-09-29T08:17:29.658Z",
+  "snapshot_at": "2026-09-30T00:00:00.000Z"
+ },
+ "profile_source": "profiles_snapshot",
+ "facts": {
+  "signup_at": {
+   "value": "2025-10-07T16:56:21.008Z",
+   "source": "profile_snapshot",
+   "as_of": "2026-09-30T00:00:00.000Z",
+   "freshness_s": 128162,
+   "conflicts": []
+  },
+  "subscription_status": {
+   "value": "active",
+   "source": "profile_snapshot",
+   "as_of": "2026-09-30T00:00:00.000Z",
+   "freshness_s": 128162,
+   "conflicts": []
+  },
+  "has_ever_paid": {
+   "value": true,
+   "source": "profile+events",
+   "as_of": "2026-10-01T11:36:02.868Z",
+   "freshness_s": 0,
+   "conflicts": []
+  },
+  "last_lapse_at": {
+   "value": null,
+   "source": "none",
+   "as_of": "2026-10-01T11:36:02.868Z",
+   "freshness_s": 0,
+   "conflicts": []
+  },
+  "notifications_opt_in": {
+   "value": true,
+   "source": "profile_snapshot",
+   "as_of": "2026-09-30T00:00:00.000Z",
+   "freshness_s": 128162,
+   "conflicts": []
+  },
+  "whatsapp_opt_in": {
+   "value": true,
+   "source": "profile_snapshot",
+   "as_of": "2026-09-30T00:00:00.000Z",
+   "freshness_s": 128162,
+   "conflicts": []
+  },
+  "dialect": {
+   "value": "d3",
+   "source": "app_setting",
+   "as_of": "2026-10-01T11:36:02.868Z",
+   "freshness_s": 0,
+   "conflicts": [
+    "deeplink:d4"
+   ],
+   "page_displayable": true
+  },
+  "language": {
+   "value": "hin",
+   "source": "app_setting",
+   "as_of": "2026-10-01T11:36:02.868Z",
+   "freshness_s": 0,
+   "conflicts": []
+  },
+  "observed_since": {
+   "value": "2026-09-03T14:41:16.498Z",
+   "source": "events",
+   "as_of": "2026-10-01T11:36:02.868Z",
+   "freshness_s": 0,
+   "conflicts": []
+  },
+  "watch_summary": {
+   "plays": 2,
+   "completions": 1,
+   "play_days_last_14": 0,
+   "top_genre": "Devotional",
+   "last_app_open_at": "2026-09-19T03:32:23.277Z"
+  }
+ },
+ "active_goal": {
+  "id": "resume_series_3d",
+  "goal_id": "G07",
+  "start": "2026-10-01T11:36:03.172Z",
+  "deadline": "2026-10-04T11:36:03.172Z",
+  "success_signal": "play_started",
+  "success_condition": "same content_slug as the unfinished series",
+  "rule_version": "v1.1",
+  "target": {
+   "content_slug": "ririgi-d3",
+   "title_id": "T0914",
+   "furthest_episode": 1,
+   "next_episode": 2
+  },
+  "status": "open",
+  "evidence": [
+   "series ririgi-d3: furthest episode 1 of 9, 1 completed, idle 384h"
+  ],
+  "assumptions": [
+   "AMBIGUOUS rule interpreted as: a show/micro_drama the viewer invested in (reached episode 2+ or completed an episode; sampling one episode and leaving is a bounce, not an unfinished series) whose furthest started episode is before its last, with no play_started of that content_slug in the 72h before the trigger (estimated true event time), in the dialect the app currently shows."
+  ],
+  "revisions": [],
+  "shadow": false,
+  "decision_id": "D-1446"
+ },
+ "goal_history": [
+  {
+   "id": "resume_series_3d",
+   "goal_id": "G07",
+   "start": "2026-10-01T11:36:03.172Z",
+   "deadline": "2026-10-04T11:36:03.172Z",
+   "success_signal": "play_started",
+   "success_condition": "same content_slug as the unfinished series",
+   "rule_version": "v1.1",
+   "target": {
+    "content_slug": "ririgi-d3",
+    "title_id": "T0914",
+    "furthest_episode": 1,
+    "next_episode": 2
+   },
+   "status": "open",
+   "evidence": [
+    "series ririgi-d3: furthest episode 1 of 9, 1 completed, idle 384h"
+   ],
+   "assumptions": [
+    "AMBIGUOUS rule interpreted as: a show/micro_drama the viewer invested in (reached episode 2+ or completed an episode; sampling one episode and leaving is a bounce, not an unfinished series) whose furthest started episode is before its last, with no play_started of that content_slug in the 72h before the trigger (estimated true event time), in the dialect the app currently shows."
+   ],
+   "revisions": [],
+   "shadow": false,
+   "decision_id": "D-1446"
+  }
+ ],
+ "pending_actions": [],
+ "published_actions": [
+  {
+   "action_id": "A-0603",
+   "type": "home_page",
+   "published_at": "2026-10-01T11:36:03.172Z"
+  },
+  {
+   "action_id": "A-0604",
+   "type": "push",
+   "send_at": "2026-10-02T13:30:00.000Z"
+  }
+ ],
+ "cancelled_actions": [],
+ "live_page": {
+  "action_id": "A-0603",
+  "published_at": "2026-10-01T11:36:03.172Z",
+  "dialect": "d3",
+  "title_ids": [
+   "T0914",
+   "T0903",
+   "T0908",
+   "T0913",
+   "T0904",
+   "T0902",
+   "T0905"
+  ],
+  "ttl_minutes": 120
+ },
+ "message_ledger": {
+  "2026-10-02": 1
+ },
+ "in_app_ledger": {},
+ "processed_trigger_ids": [
+  "f8d3eea6-6414-42d0-b474-85e86f147a17"
+ ],
+ "decisions": [
+  {
+   "decision_id": "D-1446",
+   "action": "HOME_PAGE",
+   "status": "PUBLISHED",
+   "reason": null,
+   "at": "2026-10-01T11:36:03.172Z"
+  }
+ ],
+ "learnings": [
+  {
+   "at": "2026-10-15T18:30:00.000Z",
+   "learning": "goal G07 failed"
+  }
+ ],
+ "revisions": [],
+ "last_trigger": {
+  "event_id": "f8d3eea6-6414-42d0-b474-85e86f147a17",
+  "user_id": "U-03307",
+  "event": "app_open",
+  "occurred_at": "2026-10-01T11:36:00.000Z",
+  "sent_at": "2026-10-01T11:36:00.000Z",
+  "received_at": "2026-10-01T11:36:02.868Z",
+  "session_id": "0d423f91-6c92-410f-918e-5f21bd511a55",
+  "app_dialect": "d3",
+  "app_language": "hin",
+  "platform": "ios",
+  "app_version": "6.1.4",
+  "properties": {
+   "deeplink": "ott://c/cmp048/d4/title/T1811"
+  },
+  "deliver_at": "2026-10-01T11:36:02.868Z"
+ },
+ "event_summary": {
+  "events_known": 32,
+  "by_type": {
+   "app_open": 10,
+   "episode_completed": 1,
+   "home_viewed": 8,
+   "play_progress": 5,
+   "play_started": 2,
+   "subscription_renewed": 1,
+   "title_viewed": 5
+  }
+ }
+}
